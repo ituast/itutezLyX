@@ -5,9 +5,9 @@ This is a LyX template/structure for Istanbul Technical University, Faculty of E
 
 There are several things that needs to be done before starting to use the template files.
 
-1. Need to install itutex.cls and itutex.bst files to your LaTeX system.
+1. Need to install itutez.cls and itutex.bst files to your LaTeX system.
 2. Install itutez.layout file to LyX
-3. Understand how chXXLyX files work.
+3. Understand how ch??LyX.lyx files work.
 4. Understand how input *.tex files work.
 5. All files have to be UTF8 encoded. If it is LyX file, this has to be done from Settings > Language > Encoding.
 
