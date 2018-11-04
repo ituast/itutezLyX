@@ -1,0 +1,410 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass itutez
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset VSpace 10mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newsavebox{
+\backslash
+mysquare}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+savebox{
+\backslash
+mysquare}{
+\backslash
+textcolor{black}{
+\backslash
+rule[2.3pt]{3.4pt}{3.4pt}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength{
+\backslash
+TPHorizModule}{10pt}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength{
+\backslash
+TPVertModule}{10pt}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{textblock}{1}(40,10)
+\end_layout
+
+\begin_layout Plain Layout
+
+ 	
+\backslash
+begin{figure}[p]
+\end_layout
+
+\begin_layout Plain Layout
+
+        % Resim dosyasını burada tanımlayın.
+ Resim girilmesi zorunlu değildir.
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+includegraphics[width=3.5cm,keepaspectratio=true]{./fig/CV.jpg}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{figure}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{textblock}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Ad Soyad:
+\series default
+ Mücahit Bekin 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -3mm
+\end_inset
+
+ 
+\series bold
+Doğum Tarihi ve Yeri:
+\series default
+ 1991, Ankara 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -3mm
+\end_inset
+
+ 
+\series bold
+E-Posta:
+\series default
+ mucahitbekin@gmail.com 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ÖĞRENİM DURUMU:
+\series default
+ 
+\begin_inset VSpace -3mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Lise:
+\series default
+ 2009, Ankara Atatürk Lisesi 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Lisans:
+\series default
+ 2014, İstanbul Teknik Üniversitesi, İnşaat Fakültesi, İnşaat Mühendisliği
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Y.
+ Lisans:
+\series default
+ Mezuniyet yılı, Üniversite, Anabilim Dalı, Program.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Doktora:
+\series default
+ Mezuniyet yılı, Üniversite, Anabilim Dalı, Program.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+MESLEKİ DENEYİMLER VE ÖDÜLLER:
+\series default
+ 
+\begin_inset VSpace -3mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Genkon Mühendislik 2014-2015 
+\end_layout
+
+\begin_layout Itemize
+Yapı Teknik Proje 2015-2016 
+\end_layout
+
+\begin_layout Itemize
+MBY Mühendislik 2016- 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+DOKTORA TEZİNDEN TÜRETİLEN YAYINLAR, SUNUMLAR VE PATENTLER:
+\series default
+ 
+\begin_inset VSpace -3mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ganapuram S., Hamidov A., Demirel, M.
+ C., Bozkurt E., Kındap U., Newton A., 2007.
+ Erasmus Mundus Scholar's Perspective On Water And Coastal Management Education
+ In Europe.
+ 
+\shape italic
+International Congress - River Basin Management
+\shape default
+, March 22-24, 2007 Antalya, Turkey.
+ (Sunum örneği)
+\end_layout
+
+\begin_layout Itemize
+Satoğlu, Ş.I., Durmuşoğlu, M.
+ B., Ertay, T.
+ A., 2010.
+ A Mathematical Model And A Heuristic Approach For Design Of The Hybrid
+ Manufacturing Systems To Facilitate One-Piece Flow, 
+\shape italic
+International Journal of Production Research,
+\shape default
+ 48(17), 5195-5220.
+ (Makale örneği)
+\end_layout
+
+\begin_layout Itemize
+Chen, Z., 2013.
+ Intelligent Digital Teaching And Learning All-In-One Machine, Has Projection
+ Mechanism Whose Front End Is Connected With Supporting Arm, And Base Shell
+ Provided With Panoramic Camera That Is Connected With Projector.
+ Patent Numarası: CN203102627-U (Patent örneği) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+DİĞER YAYINLAR, SUNUMLAR VE PATENTLER:
+\series default
+ 
+\begin_inset VSpace -3mm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Erkuş, B., 2010, Makale İsmi, 
+\shape italic
+Journal of Structural Control
+\shape default
+ , 50(10), 1000-1020.
+\end_layout
+
+\begin_layout Itemize
+Diğerleri 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% ---------------------------------------------------------------- %
+\end_layout
+
+\begin_layout Plain Layout
+
+% Fotografli ve yayin listeli (yayini varsa) ozgecmis onerilir.
+    %
+\end_layout
+
+\begin_layout Plain Layout
+
+% Fotograf ve adres sart degildir.
+                                 %
+\end_layout
+
+\begin_layout Plain Layout
+
+% -----------------------------------------------------------------%
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,292 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass itutez
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+SONUÇ VE ÖNERİLER
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "CH4"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Bu çalışmada ortak yalıtım düzleminde bulunan sismik yalıtımlı iki yapı
+ için parametrik bir çalışma yapılmıştır.
+ Analizler bağımsız veya ortak yalıtım düzleminde bulunan sismik yalıtımlı
+ yapıların doğrusal olmayan dinamik analizlerinin parametrik olarak yapılabildiğ
+i MSBIS programı yardımıyla gerçekleştirilmiştir.
+ Üst yapı yapısal özelliklerinin parametrik olarak değiştiği analizlerin
+ tamamı, yalıtım birimlerinin farklı eşdeğer periyot ve sönüm değerleri
+ için tekrarlanmıştır.
+ Burada ortak yalıtım düzleminde bulunan sismik yalıtımlı birinci yapının
+ yapısal özellikleri değişen ikinci yapı ve izolatör parametreleri değişimi
+ ile meydana gelen etkileşimlerini incelemek amaçlanmıştır.
+ Buna göre birinci yapıda oluşan kat kesme kuvvetlerinde, göreli kat ötelemeleri
+nde ve kat ivmelerinde oluşan değişim irdelenmiştir.
+ Taban kesme kuvvetinin üst yapıya dağılımı ise yalıtım birimlerinin değişen
+ dinamik özelliklerine göre belirlenmiştir.
+ Ayrıca ortak yalıtım düzlemindeki iki yapı için gerekli deprem derz mesafeleri
+ doğrusal yöntemler ile bulunan sonuçlarla kıyaslanmıştır.
+\end_layout
+
+\begin_layout Standard
+Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
+ sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
+ düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
+ ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
+ Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
+ tespit edilmiştir.
+ Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
+ edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
+ periyot ve sönüm değerleri için eşit bulunmaktadır.
+ Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
+ sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
+ meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
+ oluştuğu ters üçgen formuna bıraktığı görülmüştür.
+\end_layout
+
+\begin_layout Standard
+Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Yalıtım birimlerinin sahip olduğu histeretik sönüm nedeniyle meydana gelen
+ yüksek mod etkisi doğrusal analizler ile bulunan sonuçların değişmesine
+ neden olmaktadır.
+\end_layout
+
+\begin_layout Enumerate
+Ortak yalıtım düzleminde bulunan ve farklı açısal frekanslara sahip yapıların
+ şekil değiştirme ve iç kuvvetleri, bağımsız yalıtım düzleminde bulunan
+ aynı yapılara kıyasla artış göstermektedir.
+\end_layout
+
+\begin_layout Enumerate
+Yapı taban kesme kuvvetlerinin üst katlara dağılımının eşdeğer sönüm oranının
+ artışı ile dikdörtgen formdan ters üçgen formuna doğru değiştiği görülmüştür.
+ Ayrıca iki yapının açısal frekanslarına bağlı olarak bu değişimin artış
+ veya azalışta olduğu tespit edilmiştir.
+\end_layout
+
+\begin_layout Enumerate
+Deprem derz mesafelerinde doğrusal yöntemler ile bulunan değerlerin yeterli
+ olduğu tespit edilmiştir.
+\end_layout
+
+\begin_layout Enumerate
+Ortak yalıtım düzleminde bulunan 1.
+ yapı taban kesme kuvveti katsayısının toplam taban kesme kuvveti katsayısına
+ göre bağıl hatasının en büyük değeri, 1 ve 10 katlı iki yapının ortak yalıtım
+ düzleminde bulunması durumunda ve 
+\begin_inset Formula $T_{\text{eff}}=$
+\end_inset
+
+ 2.5sn ve 
+\begin_inset Formula $\xi_{\text{eff}}$
+\end_inset
+
+=0.3 değerleri için 2.20 olarak hesaplanmıştır.
+\end_layout
+
+\begin_layout Enumerate
+Ortak yalıtım düzleminde bulunan yapıların taban kesme kuvveti katsayılarının
+ toplam taban kesme kuvveti katsayısına göre bağıl hatasının en büyük değeri,
+ 2 ve 10 katlı iki yapının ortak yalıtım düzleminde bulunması durumunda
+ ve 
+\begin_inset Formula $T_{\text{eff}}=$
+\end_inset
+
+ 2.5sn ve 
+\begin_inset Formula $\xi_{\text{eff}}$
+\end_inset
+
+=0.3 değerleri için 1.20 olarak hesaplanmıştır.
+\end_layout
+
+\begin_layout Enumerate
+Yalıtım birimi kesme kuvveti katsayısının ortak yalıtım düzleminde bulunan
+ yapıların toplam taban kesme kuvveti katsayısına göre bağıl hatasının en
+ büyük değeri, 1 ve 5 katlı iki yapının ortak yalıtım düzleminde bulunması
+ durumunda ve 
+\begin_inset Formula $T_{\text{eff}}=$
+\end_inset
+
+ 2.5sn ve 
+\begin_inset Formula $\xi_{\text{eff}}$
+\end_inset
+
+=0.3 değerleri için -0.218 olarak hesaplanmıştır.
+\end_layout
+
+\begin_layout Enumerate
+1 ve 10 katlı iki yapının ortak yalıtım düzleminde bulunması durumunda 
+\begin_inset Formula $T_{\text{eff}}=$
+\end_inset
+
+ 4sn ve 
+\begin_inset Formula $\xi_{\text{eff}}$
+\end_inset
+
+=0.3 değerleri için, 1 katlı yapının kesme kuvveti kat ivmesi ve göreli kat
+ ötelemesinin, bağımsız yalıtım düzleminde bulunması durumuna göre 3.27 katına
+ çıktığı belirlenmiştir.
+\end_layout
+
+\begin_layout Enumerate
+1 ve 10 katlı iki yapının ortak yalıtım düzleminde bulunması durumunda 10
+ katlı yapının kat kesme kuvvetleri, bağımsız yalıtım düzleminde bulunması
+ durumuna göre alt katlarda en büyük azalma 
+\begin_inset Formula $T_{\text{eff}}=$
+\end_inset
+
+ 1.5sn ve 
+\begin_inset Formula $\xi_{\text{eff}}$
+\end_inset
+
+=0.3 değerleri için %21.6 ve üst katta ise en büyük azalma 
+\begin_inset Formula $T_{\text{eff}}=$
+\end_inset
+
+ 4sn ve 
+\begin_inset Formula $\xi_{\text{eff}}$
+\end_inset
+
+=0.2 değerleri için %18.9 olarak tespit edilmiştir.
+\end_layout
+
+\begin_layout Enumerate
+10 katlı yapının ortak yalıtım düzleminde bulunması durumunda kat kesme
+ kuvvetleri, bağımsız yalıtım düzleminde bulunması durumuna göre alt katlarda
+ en fazla %53.1 artış 
+\begin_inset Formula $T_{\text{eff}}=$
+\end_inset
+
+ 1.5sn ve 
+\begin_inset Formula $\xi_{\text{eff}}$
+\end_inset
+
+=0.3 değerleri için 6 katlı yapı ile birlikte bulunması durumu için gerçekleşmişt
+ir.
+ Ayrıca üst katta en büyük azalma 
+\begin_inset Formula $T_{\text{eff}}=$
+\end_inset
+
+ 4sn ve 
+\begin_inset Formula $\xi_{\text{eff}}$
+\end_inset
+
+=0.2 değerleri için 2 katlı yapı ile birlikte bulunmaları durumu için %26.1
+ olarak saptanmıştır.
+\end_layout
+
+\begin_layout Enumerate
+10 katlı yapının ortak yalıtım düzleminde bulunması durumunda göreli kat
+ ötelemeleri, bağımsız yalıtım düzleminde bulunması durumuna göre alt katlarda
+ en fazla %53.9 artış 
+\begin_inset Formula $T_{\text{eff}}=$
+\end_inset
+
+ 1.5sn ve 
+\begin_inset Formula $\xi_{\text{eff}}$
+\end_inset
+
+=0.3 değerleri için 6 katlı yapı ile birlikte bulunması durumu için gerçekleşmişt
+ir.
+ Ayrıca üst katta en büyük azalma 
+\begin_inset Formula $T_{\text{eff}}=$
+\end_inset
+
+ 4sn ve 
+\begin_inset Formula $\xi_{\text{eff}}$
+\end_inset
+
+=0.2 değerleri için 2 katlı yapı ile birlikte bulunmaları durumu için %26.4
+ olarak saptanmıştır.
+ 
+\end_layout
+
+\end_body
+\end_document

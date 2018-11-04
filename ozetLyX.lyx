@@ -1,0 +1,210 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass itutez
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Depremselliğin yüksek olduğu bölgelerde bulunan yapıların kuvvetli yer hareketle
+ri sebebiyle hasar almalarını engellemek amacıyla sismik yalıtım sistemleri
+ sıklıkla kullanılmaktadır.
+ Sismik yalıtımlı yapılar üst yapı, yalıtım düzlemi ve yalıtım birimlerinden
+ oluşmaktadır.
+ Bu sistemler çoğunlukla izolatörlerin üzerinde göreli olarak rijit hareket
+ ettiği kabul edilen konut, veri merkezi binası, hastane yapıları, sıvı
+ tankı ve açık deniz petrol platformu gibi tek yapılardır.
+ Birbirinden bağımsız sismik yalıtımlı yapıların birlikte kullanılmaları
+ durumunda çözülmesi gereken mimari detaylar karmaşık ve pahalı olmaktadır.
+ Bu sebeple pratikte birbirinden bağımsız bina tipi yapılar ortak yalıtım
+ düzleminde tasarlanmaktadır.
+ Özellikle Türkiye'de son yıllarda yapılan hastane yapıları bu tanıma uymaktadır.
+\end_layout
+
+\begin_layout Standard
+Geçmişte yapılan çalışmalar neticesinde belirlenen doğrusal tasarım yöntemleri,
+ sismik yalıtımlı yapıları tek veya çok serbestlik dereceli bir yapıdan
+ oluşan sistemler olarak değerlendirmektedir.
+ Bu nedenle yönetmeliklerde yer alan tasarım prosedürleri bağımsız yalıtım
+ düzleminde bulunan sismik yapılar hazırlanmıştır.
+ Ortak yalıtım düzleminde bulunan sismik yalıtımlı yapılar için ise yönetmelikle
+rde tasarım kriteri bulunmamaktadır.
+ Pratikte ortak yalıtım düzleminde tasarlanmış yapıların her biri bağımsız
+ yalıtım düzleminde analiz edilerek boyutlandırılmaktadır.
+ Bu sebeple izolatörlerin histeretik davranışlarından kaynaklanan yüksek
+ mod etkileri dolayısıyla yapıların dinamik etkileşimi değerlendirilememektedir.
+\end_layout
+
+\begin_layout Standard
+Bu çalışmanın amacı ortak yalıtım düzleminde bulunan iki yapı için kapsamlı
+ parametrik inceleme yapılarak üst yapıların dinamik etkileşimi sebebiyle
+ oluşan taban kesme kuvvetlerindeki amplifikasyonun irdelenmesidir.
+\end_layout
+
+\begin_layout Standard
+Çalışma kapsamında ortak yalıtım düzlemine sahip iki yapının dinamik etkileşimi,
+ parametrik olarak değişen sistemler üzerinden incelenmiştir.
+ Ayrıca ortak yalıtım düzleminde bulunan üç ve dört yapılı sistemler için
+ örnek çözümler yapılmıştır.
+ Burada üst yapı kat sayısı, yalıtım birimleri eşdeğer periyot ve eşdeğer
+ sönüm değerleri birer parametre olarak ele alınmıştır.
+ Ortak yalıtım düzleminde bulunan iki yapı kat sayısının birden ona değiştiği
+ durumlar için analizler yapılmıştır.
+ Tüm analizler yalıtım birimlerinin 1.5, 2.5 ve 4.0sn eşdeğer periyot ve %10,
+ %20 ve %30 eşdeğer sönüm değerleri için tekrarlanmıştır.
+ Yalıtım birimlerinin histeretik özellikleri, değişen üst yapı kütlesine
+ karşılık doğrusal olmayan analizler sonucunda sabit eşdeğer periyot ve
+ eşdeğer sönüm değerlerini elde edebilmek amacıyla normalize edilmiştir.
+ Bu işlem istenilen eşdeğer periyot değerine karşılık gelen rijitlik ve
+ eşdeğer sönüm değerleri ile yapılan doğrusal zaman tanım analizlerinden
+ elde edilen yalıtım birimi yer değiştirmelerine karşılık akma sonrası rijitlik
+ ve karakteristik dayanımın belirlenmesi ile gerçekleştirilmektedir.
+\end_layout
+
+\begin_layout Standard
+Analizler yalnızca yapıların ortak yalıtım düzleminde bulunduğu doğrultu
+ için yapılmıştır.
+ Diğer yöndeki etkiler ve yalıtım birimlerinin iki yönlü etkileşimi göz
+ ardı edilmiştir.
+ Üst yapıların kat kütle ve kat rijitlikleri tüm analizler için sabit alınmıştır.
+ Yalıtım düzlemi kütlesi ise her yapı için sabit olup ortak yalıtım düzleminde
+ bulunan yapı sayısı çarpılarak hesaplanmıştır.
+ Yalnızca kesme yaylarının dikkate alındığı modellerde üst yapılar çok serbestli
+k dereceli ve doğrusal elastik olarak tanımlanmıştır.
+ Yalıtım birimlerinin doğrusal olmayan davranışları ise çift doğrulu eleman
+ ile temsil edilmektedir.
+ Yalıtım birimlerinde yalnızca doğrusal olmayan davranıştan kaynaklanan
+ histeretik sönüm kullanılmıştır.
+ Analizlerde kullanılan deprem kayıtları, 50 yılda aşılma olasılığı %2 olan
+ deprem yer hareketi düzeyine göre oluşturulan tasarım spektrumuna uygun
+ olarak eşleştirilmiştir.
+\end_layout
+
+\begin_layout Standard
+Tüm analizler tez kapsamında geliştirilen, bağımsız ve ortak yalıtım düzleminde
+ bulunan sismik yalıtımlı yapıların doğrusal olmayan analizlerinin parametrik
+ olarak çözülebilmesine imkan sağlayan MSBIS programı yardımıyla gerçekleştirilm
+iştir.
+ Geliştirilen programın doğruluğu, genel kabul görmüş yapısal analiz programı
+ olan SAP2000 ile karşılaştırılarak gösterilmiştir.
+\end_layout
+
+\begin_layout Standard
+Yer ivmeleri etkisinde doğrusal olmayan dinamik analizler yapılarak birinci
+ yapıda meydana gelen kat kesme kuvvetleri, kat ivmeleri ve göreli kat ötelemele
+ri ikinci yapının değişen açısal frekansına ve yalıtım birimlerinin farklı
+ eşdeğer periyot ve eşdeğer sönüm değerlerine göre değişimi incelenmiştir.
+ Ayrıca birinci yapının on katlı olması durumunda ikinci yapının değişen
+ kat sayıları için kat kesme kuvveti katsayıları değişimi irdelenmiştir.
+ Elde edilen sonuçlar, incelenen yapıların bağımsız yalıtım düzleminde bulunması
+ durumunda elde edilecek büyüklüklere göre normalize edilmiştir.
+ Böylece yapıların taban kesme kuvvetlerindeki amplifikasyon üst yapı açısal
+ frekanslarına, yalıtım birimi eşdeğer periyot ve eşdeğer sönümüne bağlı
+ olarak tespit edilebilmektedir.
+ Ortak yalıtım düzleminde bulunan yapıların taban kesme kuvveti katsayıları
+ elde edilerek sonuçlar yapıların dinamik analizde vektörel olarak toplanarak
+ elde edilen toplam kesme kuvveti katsayısına göre kıyaslanmıştır.
+ Tespit edilen bu hata oranı yapıların dinamik etkileşiminin mertebesi ile
+ doğru orantılı olarak artmaktadır.
+ Buna ek olarak ortak yalıtım düzleminde bulunan iki yapının gerekli deprem
+ derz mesafeleri, yönetmeliklerde belirtilen yöntemler ile hesaplanarak
+ doğrusal olmayan dinamik analizlerden elde edilen sonuçlar ile kıyaslanmıştır.
+\end_layout
+
+\begin_layout Standard
+Çalışma sonucunda, yalıtım birimlerinin histeretik sönümlerinin artması
+ nedeniyle oluşan yüksek mod etkilerinin ortak yalıtım düzleminde bulunan
+ yapıların taban kesme kuvveti katsayılarını, göreli kat ötelemelerini ve
+ en büyük kat ivmelerini önemli ölçüde artırdığı tespit edilmiştir.
+ Bu artışın, iki yapının açısal frekansların ayrıklaşması ile arttığı görülmüştü
+r.
+ Dolayısıyla iki yapının da aynı açısal frekansa sahip olması durumunda
+ elde edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
+ periyot ve sönüm değerleri için eşit bulunmaktadır.
+ Ortak yalıtım düzleminde bulunan iki yapıdan incelenen bir katlı yapının
+ taban kesme kuvvetleri ikinci yapının değişen kat sayılarına karşılık bağımsız
+ yalıtım düzleminde bulunması durumuna göre artmaktadır.
+ On katlı yapının incelendiği durumda ise kat kesme kuvvetleri alt katlarda
+ artarken üst katlar için azaldığı belirlenmiştir.
+ Ortak yalıtım düzleminde bulunan üç ve dört yapılı sistemler için yapılan
+ analizler sonucunda ise incelenen yapıdan farklı açısal frekansa sahip
+ yapı sayısının artmasıyla taban kesme kuvveti katsayılarının arttığı tespit
+ edilmiştir.
+ Ayrıca histeretik sönümün artması ile taban kesme kuvvetinin üst yapıya
+ dağılımında ters üçgen formunun oluştuğu belirlenmiştir.
+\end_layout
+
+\end_body
+\end_document

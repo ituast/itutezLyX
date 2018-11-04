@@ -1,0 +1,689 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass itutez
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+TEORİK ALTYAPI
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "CH2"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section
+Giriş
+\end_layout
+
+\begin_layout Standard
+Bu bölümde, ortak yalıtım düzleminde bulunan sismik yalıtımlı tekli ve çoklu
+ yapılara ait hareket denklemleri, çalışmada kullanılacak hali ile yeniden
+ türetilmiş ve ardından hareket denklemlerinin çalışma kapsamında kullanılan
+ doğrusal olmayan çözüm yöntemine ait detaylar verilmiştir.
+ Bununla birlikte sismik yalıtımlı yapıların analizinde kullanılan sönüm
+ modellerine ait detaylar paylaşılmıştır.
+ Ayrıca sismik yalıtımlı yapıların eşdeğer doğrusal analizine ilişkin tasarım
+ metodolojileri ilgili yöntem ve yönetmelikler dahilinde açıklanmıştır.
+\end_layout
+
+\begin_layout Section
+Sismik Yalıtımlı Tek Yapılı Sistemlere Ait Hareket Denklemleri
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "eom-singlestructure"
+
+\end_inset
+
+ Nagarajaiah ve diğerleri tarafından sunulan sismik yalıtımlı tek yapılara
+ ait hareket denklemlerinde, her bir kat 3 serbestlik derecesi ile ifade
+ edilmektedir 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "doi:10.1061/(ASCE)0733-9445(1991)117:7(2035)"
+literal "false"
+
+\end_inset
+
+.
+ Bu çalışma kapsamında, tek doğrultuda yatay ötelenme serbestlik dereceleri
+ dikkate alınacaktır.
+ Bu sebeple hareket denklemleri, çalışma kapsamında kullanılacak sınırlar
+ çerçevesinde detaylı olarak açıklanmıştır.
+ Denklemler, kütleleri kat hizalarında toplanmış olan ve yalnızca yatay
+ kesme yaylarının yapı rijitliğini temsil ettiği örnek sismik yalıtımlı
+ sistem üzerinden türetilmiştir.
+ 
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename TikZ/SingleStructureAndFBD.pdf
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:singlestructurefbd"
+
+\end_inset
+
+Sismik yalıtımlı tek yapının şekil değiştirmiş hali ve serbest cisim diyagramı.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:singlestructurefbd"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de yapının temsili şekil değiştirmiş hali ile dinamik yükleme altında katlara
+ ve yalıtım düzlemine etkiyen kuvvetler sunulmuştur.
+ Burada, 
+\begin_inset Formula $x^{\text{b}}$
+\end_inset
+
+ katların yalıtım düzlemine göre bağıl yer değiştirmelerini, 
+\begin_inset Formula $x_{\text{b}}^{\text{g}}$
+\end_inset
+
+ yalıtım düzleminin zemine göre bağıl yer değiştirmesini, 
+\begin_inset Formula $m$
+\end_inset
+
+ kat kütlelerini, 
+\begin_inset Formula $m_{\text{b}}$
+\end_inset
+
+ yalıtım düzlemi kütlesini, 
+\begin_inset Formula $k$
+\end_inset
+
+ kat rijitliklerini, 
+\begin_inset Formula $c$
+\end_inset
+
+ ilgili kata ait sönüm değerini, 
+\begin_inset Formula $F_{\text{s}}$
+\end_inset
+
+ yapının taban kesme kuvvetini, 
+\begin_inset Formula $F_{\text{iso}}$
+\end_inset
+
+ izolatör seviyesinde oluşan kesme kuvvetini ve noktalar ise zamana bağlı
+ türevi belirtmektedir.
+ Terimlerde alt indis şeklinde bulunan numaralar, ilgili büyüklüğün hangi
+ kata ait olduğunu göstermektedir.
+ Buna göre, yapının ilk katına ait hareket denklemi 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq-eom-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'deki gibi ifade edilebilir.
+ 
+\begin_inset Formula 
+\begin{equation}
+-k_{2}\left[x_{2}^{\text{b}}-x_{1}^{\text{b}}\right]+k_{1}x_{1}^{\text{b}}-c_{2}\left[\dot{x}_{2}^{\text{b}}-\dot{x}_{1}^{\text{b}}\right]+c_{1}\dot{x}_{1}^{\text{b}}=-m_{1}\ddot{x}_{1}^{\text{abs}}\label{eq-eom-1}
+\end{equation}
+
+\end_inset
+
+Dinamik denge, D'Alembert prensibine göre yazılmıştır.
+ Bu prensibe göre, sisteme etkiyen kuvvetlerin yanı sıra, fiktif atalet
+ kuvvetlerinin ivme yönüne ters olarak eklenmesi halinde sistem her zaman
+ anı için denge durumunda bulunmaktadır.
+ Dolayısıyla eşitliğin sağ tarafında yer alan 
+\begin_inset Formula $\ddot{x}_{1}^{\text{abs}}$
+\end_inset
+
+ terimi, aşağıdaki denklemde belirtildiği gibi yalıtım düzleminde oluşan
+ ve 
+\begin_inset Formula $\ddot{x}_{\text{b}}^{\text{abs}}$
+\end_inset
+
+ ile ifade edilen ivmeler ile, dinamik dengenin sağlanabilmesi için denkleme
+ eklenen fiktif 
+\begin_inset Formula $\ddot{x}_{1}^{\text{b}}$
+\end_inset
+
+ ivmesinin toplamını ifade etmektedir.
+ 
+\begin_inset Formula 
+\begin{equation}
+\ddot{x}_{1}^{\text{abs}}=\ddot{x}_{1}^{\text{b}}+\ddot{x}_{\text{b}}^{\text{abs}}\label{eq-acc-1}
+\end{equation}
+
+\end_inset
+
+Benzer şekilde yapının ikinci katına ait hareket denklemi ve 
+\begin_inset Formula $\ddot{x}_{2}^{\text{abs}}$
+\end_inset
+
+ teriminin açılımı aşağıda sunulmuştur.
+ 
+\begin_inset Formula 
+\begin{equation}
+k_{2}\left[x_{2}^{\text{b}}-x_{1}^{\text{b}}\right]+c_{2}\left[\dot{x}_{2}^{\text{b}}-\dot{x}_{1}^{\text{b}}\right]=-m_{2}\ddot{x}_{2}^{\text{abs}}\label{eq-eom-2}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\ddot{x}_{2}^{\text{abs}}=\ddot{x}_{2}^{\text{b}}+\ddot{x}_{\text{b}}^{\text{abs}}\label{eq-acc-2}
+\end{equation}
+
+\end_inset
+
+Yukarıda verilen denklemler düzenlenerek matris formunda yazılırsa aşağıda
+ sunulan denklem elde edilir.
+ 
+\begin_inset Formula 
+\begin{equation}
+\begin{split}\begin{bmatrix}m_{1} & 0\\
+0 & m_{2}
+\end{bmatrix}\begin{Bmatrix}\ddot{x}_{1}^{\text{b}}\\
+\ddot{x}_{2}^{\text{b}}
+\end{Bmatrix}+ & \begin{bmatrix}c_{1}+c_{2} & -c_{2}\\
+-c_{2} & c_{2}
+\end{bmatrix}\begin{Bmatrix}\dot{x}_{1}^{\text{b}}\\
+\dot{x}_{2}^{\text{b}}
+\end{Bmatrix}+\begin{bmatrix}k_{1}+k_{2} & -k_{2}\\
+-k_{2} & k_{2}
+\end{bmatrix}\begin{Bmatrix}{x}_{1}^{\text{b}}\\
+{x}_{2}^{\text{b}}
+\end{Bmatrix}=\\
+ & -\begin{bmatrix}m_{1} & 0\\
+0 & m_{2}
+\end{bmatrix}\begin{Bmatrix}1\\
+1
+\end{Bmatrix}\ddot{x}_{\text{b}}^{\text{abs}}
+\end{split}
+\label{eq-eom-singlestructure}
+\end{equation}
+
+\end_inset
+
+Aşağıdaki denklemde açıklandığı üzere 
+\begin_inset Formula $\ddot{x}_{\text{b}}^{\text{abs}}$
+\end_inset
+
+ terimi, 
+\begin_inset Formula $\ddot{x}_{\text{b}}^{\text{g}}$
+\end_inset
+
+ ile ifade edilen yalıtım düzleminin zemine göre bağıl ivmesi ile 
+\begin_inset Formula $\ddot{x}_{\text{g}}^{\text{abs}}$
+\end_inset
+
+ ifadesine karşılık gelen yer ivmesinin toplamını belirtmektedir.
+ 
+\begin_inset Formula 
+\begin{equation}
+\ddot{x}_{\text{b}}^{\text{abs}}=\ddot{x}_{\text{b}}^{\text{g}}+\ddot{x}_{\text{g}}^{\text{abs}}\label{eq-abs-base-acc}
+\end{equation}
+
+\end_inset
+
+Yalıtım düzlemine göre bağıl olarak ifade edilmiş olan yapının hareket denklemi
+ kapalı formda aşağıdaki gibi yazılabilir.
+ 
+\begin_inset Formula 
+\begin{equation}
+\mathbf{M}_{\text{s}}\mathbf{\ddot{x}}_{\text{s}}^{\text{b}}+\mathbf{C}_{\text{s}}\mathbf{\dot{x}}_{\text{s}}^{\text{b}}+\mathbf{K}_{\text{s}}^{\text{b}}\mathbf{x}_{\text{s}}^{\text{b}}=-\mathbf{M}_{\text{s}}\mathbf{R}\ddot{x}_{\text{b}}^{\text{g}}-\mathbf{M}_{\text{s}}\mathbf{R}\ddot{x}_{\text{g}}^{\text{abs}}\label{eq-eom-singlestructure-closed}
+\end{equation}
+
+\end_inset
+
+Burada, 
+\begin_inset Formula $\mathbf{M}_{\text{s}}$
+\end_inset
+
+ kütle, 
+\begin_inset Formula $\mathbf{C}_{\text{s}}$
+\end_inset
+
+ sönüm, 
+\begin_inset Formula $\mathbf{K}_{\text{s}}$
+\end_inset
+
+ rijitlik matrisini, 
+\begin_inset Formula $\mathbf{x}_{\text{s}}$
+\end_inset
+
+ katların yalıtım düzlemine göre bağıl yer değiştirme vektörünü, 
+\begin_inset Formula $\mathbf{\ddot{x}}_{\text{b}}^{\text{g}}$
+\end_inset
+
+ yalıtım düzleminin zemine göre bağıl ivmesini, 
+\begin_inset Formula $\mathbf{\ddot{x}}_{\text{g}}^{\text{abs}}$
+\end_inset
+
+ yer ivmesini, 
+\begin_inset Formula $\mathbf{R}$
+\end_inset
+
+ deprem etki vektörünü ve noktalar ise zamana bağlı türevleri ifade etmektedir.
+ Elde edilen üst yapı bağıl hareket denkleminde deprem kuvvetlerini oluşturacak
+ ivmeler, yalnızca yalıtım düzleminin mutlak ivmesine eşittir.
+ Dolayısıyla üst yapıya etkiyen deprem kuvvetlerinde yer ivmelerinin doğrudan
+ etkisi bulunmamaktadır.
+\end_layout
+
+\begin_layout Standard
+Burada, 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathbf{C}$
+\end_inset
+
+ ve 
+\begin_inset Formula $\mathbf{K}$
+\end_inset
+
+ tüm yapıya ait sırasıyla kütle, sönüm ve rijitlik matrislerini, 
+\begin_inset Formula $\mathbf{x}$
+\end_inset
+
+ yapı yer değiştirme vektörünü ve 
+\begin_inset Formula $\mathbf{S}_{\text{1}}$
+\end_inset
+
+ ise etki vektörünü ifade etmektedir.
+ Denklemde belirtilen terimlerin açık hali aşağıda verilmiştir.
+ 
+\begin_inset VSpace 0.2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\mathbf{M}=\begin{bmatrix}\mathbf{M}_{\text{s}} & \mathbf{M}_{\text{s}}\mathbf{R}\\
+\mathbf{R}^{\text{T}}\mathbf{M}_{\text{s}} & \mathbf{R}^{\text{T}}\mathbf{M}_{\text{s}}\mathbf{R}+M_{\text{b}}
+\end{bmatrix}$
+\end_inset
+
+ 
+\begin_inset space \hspace{}
+\length 0.2cm
+\end_inset
+
+ 
+\begin_inset Formula $\mathbf{M}_{\text{s}}=\begin{bmatrix}m_{1} & 0\\
+0 & m_{2}
+\end{bmatrix}$
+\end_inset
+
+ 
+\begin_inset VSpace 0.25cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\mathbf{C}=\begin{bmatrix}\mathbf{C}_{\text{s}} & \mathbf{0}\\
+\mathbf{0} & C_{\text{b}}
+\end{bmatrix}$
+\end_inset
+
+ 
+\begin_inset space \hspace{}
+\length 0.2cm
+\end_inset
+
+ 
+\begin_inset Formula $\mathbf{C}_{\text{s}}=\begin{bmatrix}c_{1}+c_{2} & -c_{2}\\
+-c_{2} & c_{2}
+\end{bmatrix}$
+\end_inset
+
+ 
+\begin_inset VSpace 0.25cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\mathbf{K}=\begin{bmatrix}\mathbf{K}_{\text{s}} & \mathbf{0}\\
+\mathbf{0} & K_{\text{b}}
+\end{bmatrix}$
+\end_inset
+
+ 
+\begin_inset space \hspace{}
+\length 0.2cm
+\end_inset
+
+ 
+\begin_inset Formula $\mathbf{K}_{\text{s}}=\begin{bmatrix}k_{1}+k_{2} & -k_{2}\\
+-k_{2} & k_{2}
+\end{bmatrix}$
+\end_inset
+
+ 
+\begin_inset VSpace 0.25cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\mathbf{\ddot{x}}=\begin{Bmatrix}\mathbf{\ddot{x}}_{\text{s}}^{\text{b}}\\
+\ddot{x}_{\text{b}}^{\text{g}}
+\end{Bmatrix}$
+\end_inset
+
+ 
+\begin_inset space \hspace{}
+\length 0.2cm
+\end_inset
+
+ 
+\begin_inset Formula $\mathbf{\ddot{x}}_{\text{s}}^{\text{b}}=\begin{Bmatrix}\ddot{x}_{1}^{\text{b}}\\
+\ddot{x}_{2}^{\text{b}}
+\end{Bmatrix}$
+\end_inset
+
+ 
+\begin_inset space \hspace{}
+\length 0.5cm
+\end_inset
+
+ 
+\begin_inset Formula $\mathbf{\dot{x}}=\begin{Bmatrix}\mathbf{\dot{x}}_{\text{s}}^{\text{b}}\\
+\dot{x}_{\text{b}}^{\text{g}}
+\end{Bmatrix}$
+\end_inset
+
+ 
+\begin_inset space \hspace{}
+\length 0.2cm
+\end_inset
+
+ 
+\begin_inset Formula $\mathbf{\dot{x}}_{\text{s}}^{\text{b}}=\begin{Bmatrix}\dot{x}_{1}^{\text{b}}\\
+\dot{x}_{2}^{\text{b}}
+\end{Bmatrix}$
+\end_inset
+
+ 
+\begin_inset space \hspace{}
+\length 0.5cm
+\end_inset
+
+ 
+\begin_inset Formula $\mathbf{x}=\begin{Bmatrix}\mathbf{x}_{\text{s}}^{\text{b}}\\
+{x}_{\text{b}}^{\text{g}}
+\end{Bmatrix}$
+\end_inset
+
+ 
+\begin_inset space \hspace{}
+\length 0.2cm
+\end_inset
+
+ 
+\begin_inset Formula $\mathbf{x}_{\text{s}}^{\text{b}}=\begin{Bmatrix}{x}_{1}^{\text{b}}\\
+{x}_{2}^{\text{b}}
+\end{Bmatrix}$
+\end_inset
+
+ 
+\begin_inset VSpace 0.25cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\mathbf{S}_{\text{1}}=\begin{Bmatrix}\mathbf{0}\\
+1
+\end{Bmatrix}$
+\end_inset
+
+ 
+\begin_inset space \hspace{}
+\length 0.2cm
+\end_inset
+
+ 
+\begin_inset Formula $\mathbf{R}=\begin{Bmatrix}1\\
+1
+\end{Bmatrix}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sismik Yalıtımlı Çok Yapılı Sistemlere Ait Hareket Denklemleri
+\end_layout
+
+\begin_layout Standard
+Sismik yalıtımlı çoklu yapılara ait hareket denklemleri Tsopelas ve diğerleri
+ tarafından açıklanmıştır 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TSOPELAS199447"
+literal "false"
+
+\end_inset
+
+.
+ Yapılan çalışmada, düzlem içi rijitlikleri sonsuz yapı katlarını temsil
+ eden toplu kütlelerin iki yatay ötelenme ve bir dönme olmak üzere toplam
+ üç adet serbestlik derecesi bulunmaktadır.
+ Kütle merkezlerinde konumlanan bu serbestlik dereceleri, yalıtım düzlemi
+ kütle merkezinden geçen düşey referans aksa göre eksantrik olarak tanımlanabilm
+ektedir.
+ Tez çalışması kapsamında ortak yalıtım düzleminde bulunan çoklu yapıların
+ parametrik değişkenler altında yapı davranışları, yalnızca tek doğrultuda
+ yatay ötelenme serbestlik dereceleri dikkate alınarak incelenmiştir.
+ Bu sebeple hareket denklemleri, Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:multistructure"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de sunulan örnek yapı üzerinden türetilecektir.
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename TikZ/MultiStructure.pdf
+	width 100line%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:multistructure"
+
+\end_inset
+
+Sismik yalıtımlı çoklu yapıların şekil değiştirmiş hali.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Burada, 
+\begin_inset Formula $m$
+\end_inset
+
+ kat kütlelerini, 
+\begin_inset Formula $c$
+\end_inset
+
+ kat sönümünü, 
+\begin_inset Formula $k$
+\end_inset
+
+ rijitlik değerini ve 
+\begin_inset Formula $x$
+\end_inset
+
+ ise yer değiştirmeleri belirtmektedir.
+ Üst indiste büyüklüğün göreli olarak yazıldığı konum belirtilmiştir.
+ Yapı kat yer değiştirmelerinde alt indislerde verilen ilk rakam yapı numarasını
+, ikinci rakam ise büyüklüğün hangi kata ait olduğunu işaret etmektedir.
+ Yalıtım düzlemi yer değiştirmesi veya izolatör deplasmanları ise 
+\begin_inset Formula $x_{\text{b}}^{\text{g}}$
+\end_inset
+
+ ile verilmiştir.
+\end_layout
+
+\end_body
+\end_document

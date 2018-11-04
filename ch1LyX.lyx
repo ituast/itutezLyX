@@ -1,0 +1,763 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass itutez
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+GİRİŞ
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "giris"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sismik Yalıtımlı Yapılar
+\end_layout
+
+\begin_layout Standard
+Deprem bölgelerinde yapılacak binalarda yaygın olarak kullanılan kuvvet
+ esaslı tasarıma göre, yapının karşılaşması beklenen en büyük deprem kuvveti
+ altında göreli olarak büyük yer değiştirmeler yapması, yapısal taşıyıcı
+ elemanlarda hasar oluşması ve dolayısıyla deprem enerjisinin büyük bir
+ kısmının kalıcı şekil değiştirmeler ile sönümlenmesi beklenir.
+ Yapının önem derecesine bağlı olarak depremde daha az hasar almasını sağlamak
+ amacıyla göreli kat ötelemelerinin sınırlanması gerekmektedir.
+ Bu durum, yapının rijitliğini artırarak katlarda daha büyük ivmelerin oluşmasın
+a ve buna bağlı olarak yapısal olmayan elemanlarda daha büyük kuvvetlerin
+ oluşmasına sebep olmaktadır.
+ Kat ivmelerinin azaltılması ise yapı rijitliğinin düşürülmesi ile mümkündür.
+ Ancak bu durumda göreli kat ötelemeleri ve yapısal hasarlar artmaktadır.
+ Yapıların depremden korunmasının bir yolu, zemin ile yapı temeli arasında,
+ yatay rijitliği yapıya oranla düşük bir katman oluşturmaktır.
+\end_layout
+
+\begin_layout Standard
+Yapılarda kuvvetli yer hareketleri sebebiyle oluşan hasarları engellemek
+ amacıyla birçok yöntem üzerine çalışmalar yapılmıştır.
+ Touaillon 1870 yılında, ABD patent ofisine yaptığı başvuruda, temel ve
+ binaya sabitlenen konkav metal plakaların arasında bulunan küreler sayesinde
+ deprem sebebiyle yapıların yıkılmasının önleneceğini söylemektedir 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Touaillon1870"
+literal "false"
+
+\end_inset
+
+.
+ Benzer bir yalıtım sistemi ise Bechtold tarafından 1907 yılında patent
+ başvurusu yapılan, binaların altına yerleştirilen rijit taban plakasının
+ bazalt, gnays veya granitten yapılacak küreler üzerinde kayan bir sistem
+ önerisidir 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bechtold1907"
+literal "false"
+
+\end_inset
+
+.
+ Dr.
+ Calantarines ise yapı temelinin ince kum, mika veya talk üzerinde kayabildiği
+ bir 
+\begin_inset Quotes eld
+\end_inset
+
+serbest mesnet
+\begin_inset Quotes erd
+\end_inset
+
+ fikri ile 1909 yılında İngiltere patent ofisine başvurmuştur 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "calantarients1909improvements"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Yeni yöntemlerin araştırılmasının yanında üst katlarda önemli hasarların
+ oluşmasını engellemek amacıyla yumuşak ilk kata sahip yapılar da depreme
+ etkileri altında incelenmiştir.
+ Chopra ve diğerleri tarafından yapılan çalışmada ilk katı yumuşak kata
+ sahip sekiz katlı bir binanın, deprem etkileri altında üst katlarında hasar
+ oluşmasını engellemek amacıyla ilk katın akma koşulları incelenmiştir 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "doi:10.1002/eqe.4290010405"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Kauçuk mesnetler, binalarda titreşimleri engellemek ve köprülerde ise ısıl
+ genleşmeler sebebiyle mesnetlerin yer değiştirebilmelerini sağlamak amacıyla
+ kullanılmıştır.
+ Yapıların deprem etkilerinden korunmaları amacıyla ilk kullanımı 1969 yılında
+ Yugoslavya'nın Skopje ilinde bulunan Pestalozzi ilkokulunda gerçekleşmiştir.
+ Tek bir blok olarak uygulanan kauçuk mesnetlerin yatay ve düşey rijitliklerinin
+ aynı olması, yan yüzeylerde binanın ağırlığından dolayı şişkinlik oluşmasına
+ neden olmuştur.
+ Kauçuk katmanların eksenel taşıma kapasitelerinin yükseklikleri ile ters
+ orantılı olduğunu tespit eden Fransız mühendis Eugène Freyssinet, kauçuk
+ katmanların aralarına eksenel kuvvete dik doğrultuda ince çelik plakalar
+ ilave ederek güçlendirmeyi önermiştir.
+ Burada katmanlar arasındaki bağ sürtünme kuvveti sebebiyle sağlanmaktadır.
+ İnce çelik plakalar ile kauçuk katmanların birbirlerine yapışmalarını sağlamak
+ amacıyla kullanılan vulkanizasyon yöntemi sayesinde modern haline kavuşan
+ sismik izolatörler ile ilgili yapılan çalışmalar ve uygulama örnekleri
+ artmaya başlamıştır.
+ Kelly tarafından yapılan çalışmada 1900-1984 yılları arasında sismik yalıtım
+ çalışmaları özetlenerek alfabetik ve kronolojik bibliyografya sunulmuştur
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "KELLY1986202"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Robinson ve Tucker tarafından gerçekleştirilen çalışmada, Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:LRBIsolator"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de gösterilen çelik plakalar ile güçlendirilmiş kauçuk izolatörün merkezine
+ kurşun silindir yerleştirilerek tekrarlı yatay yükler etkisindeki davranışı
+ incelenmiştir 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RobinsonTucker1977"
+literal "false"
+
+\end_inset
+
+.
+ Çelik ve kauçuk ile sargılı olan kurşun silindirde tamamen kayma deformasyonlar
+ı meydana gelmektedir.
+ Çalışmada, günümüzde yaygın olarak kullanılan bu sistemin sahip olduğu
+ histeretik sönüm kapasitesi, kurşun çekirdeğin eksenel dayanımı ve geri
+ çağırım kuvveti gibi faydaları belirtilerek büyük deprem etkileri ve küçük
+ rüzgar yüklerinde yeterli performans sergileyeceği vurgulanmıştır.
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename TikZ/LRBIsolator.pdf
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:LRBIsolator"
+
+\end_inset
+
+ Kurşun çekirdekli kauçuk izolatör.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Yapıların mesnetleri üzerinde sarkaç gibi hareket etmelerini sağlayan sismik
+ yalıtım yöntemi Zayas ve diğerleri tarafından 1990 yılında yapılan çalışmalar
+ neticesinde önerilmiştir 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "doi:10.1193/1.1585573"
+literal "false"
+
+\end_inset
+
+.
+ Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FPIsolator"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de kesiti verilen sürtünmeli sarkaç tipi izolatörlerin yalıtım periyotları
+ konkav yüzeyin yarıçapı ile belirlenmektedir.
+ Deprem enerjisinin sönümlendiği histeretik davranış, yüzeylerde oluşan
+ sürtünme kuvvetleri nedeniyle oluşmaktadır.
+ Sistemin sarkaç hareketine başlaması, sürtünme kuvvetlerinin aşılmasıyla
+ mümkün olmaktadır.
+ Bu nedenle yapının rüzgar yükleri altında yalıtım birimlerinden beklenen
+ rijitlik elde edilmiş olmaktadır.
+ Sürtünmeli sarkaç tipi izolatörlerin malzeme belirsizliklerinden en az
+ düzeyde etkilenmesi, sismik yalıtımlı yapıların deprem etkileri altındaki
+ davranışlarının öngörülebilir olmasını sağlamaktadır.
+ Ayrıca yapılan testlere göre büyük deplasmanlarda eksenel taşıma kapasitesinde
+ düşme veya stabilite kaybı olmadığı ve histeretik çevrimler ile dayanım
+ azalmasının oluşmadığı görülmüştür.
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename TikZ/FPIsolator.pdf
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:FPIsolator"
+
+\end_inset
+
+Sürtünmeli sarkaç tipi izolatör.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sismik izolasyon, dünyada depremselliği yüksek olan bölgelerde yoğun olarak
+ kullanılmaktadır.
+ Japonya, Çin, Rusya, İtalya ve ABD başta olmak üzere 30 dan fazla ülkede
+ 23.000'i aşkın bina, sismik izolasyon ve sönümleyiciler ile korunmaktadır
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Martelli2014"
+literal "false"
+
+\end_inset
+
+.
+ Aktif fay hatları üzerinde bulunan ülkemizde ise sismik izolasyon kullanımı
+ giderek yaygınlaşmaktadır.
+ Ağırlıklı olarak depremden hemen sonra kesintisiz kullanımın hedeflendiği
+ hastaneler ve veri merkezleri gibi önemli binalarda uygulanmaktadır.
+ İstanbul'da bulunan Sabiha Gökçen Uluslararası Havalimanında üç sürtünme
+ yüzeyli sarkaç tipi izolatörler kullanılarak sismik yalıtım uygulanmıştır.
+ Toplamda 160.000 
+\begin_inset Formula $\mathrm{m^{2}}$
+\end_inset
+
+'den fazla alana kurulu havalimanında 252 sismik izolatör bulunmaktadır.
+ Üç sürtünme yüzeyli sismik izolatörler ve çelik üst yapının montajı 2008'de
+ tamamlanmıştır (Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SabihaGökçen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ 
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename fig/a.PNG
+	lyxscale 25
+	height 5cm
+
+\end_inset
+
+ 
+\begin_inset space \hspace{}
+\length 0.5cm
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename fig/b.PNG
+	lyxscale 25
+	height 5cm
+
+\end_inset
+
+ 
+\begin_inset VSpace 6pt
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SabihaGökçen"
+
+\end_inset
+
+ Sabiha Gökçen Uluslararası Havalimanına ait sismik izolatör kolon kiriş
+ birleşimi ve çelik üst yapı 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Zekioglu2009"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sismik Yalıtımlı Yapıların Tasarımı
+\end_layout
+
+\begin_layout Standard
+Sismik yalıtımlı yapıların tasarımı, doğrusal yöntemlerle ön boyutlandırma
+ aşaması ve doğrusal olmayan dinamik analizlerle tasarımın doğrulanması
+ olmak üzere iki aşamalıdır.
+ Ön tasarım aşamasında eşdeğer doğrusal analiz ve mod birleştirme yöntemleri
+ kullanılmaktadır.
+\end_layout
+
+\begin_layout Standard
+Sismik yalıtımlı yapılarda izolatörlerin hakim frekansları ile tabanı ankastre
+ kabul edilen üst yapı frekansları belirgin biçimde ayrıklaşır.
+ Göreli olarak düşük yatay rijitliğe sahip yalıtım birimleri, üst yapının
+ yapacağı deformasyonları azaltmaktadır.
+ Bu nedenlerle elastik sınırlar içerisinde davranması beklenen yapının,
+ yapısal düzensizliklerinin bulunmaması halinde gerekli idealleştirmeler
+ yapılarak sistem basitleştirilebilir.
+ Ayrıca yapının sahip olduğu doğrusal olmayan dinamik özellikler, idealleştirilm
+iş sisteme karşılık gelen parametrelerle ifade edilebilir.
+ Eşdeğer doğrusal analiz yönteminde tüm yapı, Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:equivalentmodel"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de belirtildiği gibi tek serbestlik dereceli bir sistem olarak temsil edilmekte
+dir.
+ 
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename TikZ/StructuralEquivalentModel.pdf
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:equivalentmodel"
+
+\end_inset
+
+ Eşdeğer Tek Serbestlik Dereceli Sistem.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sismik yalıtımlı yapı sisteminin, tasarlanacağı yönetmelikte eşdeğer doğrusal
+ analiz için belirtilen uygulama sınırları dışında kalması durumunda veya
+ üst yapı taşıyıcı sisteminin sahip olduğu serbestlik dereceleri de dikkate
+ alınarak daha detaylı bir çözüm yapılmak istendiğinde mod birleştirme yöntemi
+ tercih edilmektedir.
+ Üst yapının çok serbestlik dereceli sistem olarak modellendiği bu yöntemde,
+ izolatörlerin temsil edildiği doğrusal kesme yaylarında eşdeğer rijitlik
+ değerleri kullanılmaktadır.
+ Böylece kütlesi ve rijitliği belli olan sistemin doğrusal mod şekilleri
+ ve bu modlara karşılık gelen periyot ve frekans değerleri hesaplanır.
+ Tüm modlardan elde edilen iç kuvvet ve yer değiştirmeler birleştirilerek
+ sistemin deprem etkileri hesaplanır.
+\end_layout
+
+\begin_layout Standard
+Doğrusal yöntemlerle tasarımı tamamlanan sismik yalıtımlı yapıların kontrolü,
+ geçmiş depremlerden elde edilen veya bölgenin depremsellik özelliklerine
+ uygun biçimde yapay olarak üretilen yer ivmeleri etkisinde, yapıların doğrusal
+ olmayan davranışlarının modellendiği, zaman tanım alanında yapılan analizler
+ ile sağlanır.
+ İzolatör birimleri için kullanılan kesme yaylarında doğrusal olmayan davranışla
+rın çeşitli malzeme modelleri ile ifade edilebileceği gibi, eksenel yaylar,
+ eğilme ve burulma yayları da tanımlanabilmektedir.
+ Ayrıca bu yayların birbirleri ile bağlı olarak çalışması gerçeğe daha yakın
+ analiz sonuçlarının elde edilmesini sağlamaktadır.
+ Bu analizde yapısal davranışlar, kütle ve rijitliklerin yanında yer hareketleri
+nin içeriğine de bağlı olarak değişkenlik göstermektedir.
+ Bu nedenle yapının doğrusal olmayan dinamik analizinde, tasarımda uyulan
+ yönetmelik koşullarında belirtilen sayıda ve tasarım spektrumuna göre ölçeklenm
+iş veya eşlenmiş yer ivmesi kullanılarak bulunan sonuçların ortalaması değerlend
+irilmektedir.
+\end_layout
+
+\begin_layout Subsection
+Sismik yalıtımlı yapıların tasarım yöntemlerinin irdelenmesi
+\end_layout
+
+\begin_layout Standard
+Sismik yalıtımlı yapıların tasarım metotları 1970'lerden günümüze kadar
+ fiziksel deneyler veya analitik modellerden elde edilen bilgiler ışığında
+ pek çok kez irdelenmiştir.
+ Yapılan araştırmalar içinde doğrusal tasarım metotlarının geçerliliği,
+ kullanım sınırları ve doğruluk mertebeleri incelenen konular arasında bulunmakt
+adır.
+ Sismik yalıtımlı yapıların tasarımında kullanılan doğrusal yöntemler, konvansiy
+onel yapılardan farklı olarak yalnızca ön tasarım aşamasında kullanılmaktadır.
+ Öngörülen en büyük depremden sonra dahi yapının kesintisiz olarak kullanılma
+ gerekliliği, yapısal tasarımda gerçeğe en yakın sonuçların elde edilmesini
+ sağlayacak analizlerin uygulanma zorunluluğunu da beraberinde getirmektedir.
+ Dolayısıyla ana hatları doğrusal analizler ile belirlenen sismik yalıtımlı
+ sistem tasarımlarının, bölgenin depremselliğine uygun olarak seçilecek
+ deprem kayıtları kullanılarak yapılacak doğrusal olmayan dinamik analizler
+ sayesinde kontrol edilerek son hale getirilmesi önemlidir.
+ Fakat bu ileri seviye analizler, karmaşık olabilmekte ve uzun zaman almaktadır.
+ Bu nedenle, son aşamaya kadar doğrusal yöntemler ile ilerletilen sismik
+ yalıtımlı yapı projelerinde bu analizlerin doğruluğu önem arz etmektedir.
+ İlerleyen başlıklarda doğrusal analiz yöntemleri irdelenmiştir.
+\end_layout
+
+\begin_layout Subsection
+Eşdeğer doğrusal analiz
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "EquivalentLinearAnalysis"
+
+\end_inset
+
+ Eşdeğer doğrusal analiz yönteminde kullanılan sistemde izolatörlerin üzerinde
+ bulunan yalıtım düzlemi ve üst yapı, tek bir kütle olarak değerlendirilmektedir.
+ İzolatör eşdeğer rijitliği, her bir izolatör biriminin tasarım deplasmanı
+ için elde edilecek sekant rijitlikleri toplamını belirtmektedir.
+ Buna bağlı olarak izolatör periyodu, tek serbestlik dereceli sistem için
+ hesaplanmaktadır.
+ Sistemin sönümleyeceği enerji ise izolatörlerin doğrusal olmayan histeretik
+ davranışlarından elde edilecek eşdeğer viskoz sönüm oranı cinsinden ifade
+ edilir.
+ Eşdeğer doğrusal analiz yöntemi, içerdiği kabul ve idealleştirmeler sebebi
+ ile kullanılan yönetmeliklerde belirtilen kriterlerin sağlanması durumunda
+ uygulanabilmektedir.
+\end_layout
+
+\begin_layout Standard
+Ön tasarım aşamasında izolatörlerde meydana gelecek en büyük yatay yer değiştirm
+e değerinin tespit edilmesi izolatör boyutlarının belirlenmesinde önemli
+ bir kriterdir.
+ En büyük yer değiştirme değeri, en büyük izolatör kuvvetinin eşdeğer rijitliğe
+ bölümü ile bulunmaktadır.
+ Fakat eşdeğer rijitlik değerinin belirlenebilmesi, izolatörün en büyük
+ yer değiştirme değerinin bilinmesi ile mümkün olmaktadır.
+ Ön tasarımın ilk adımında oluşan bu belirsizlik, detayları Bölüm 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "CH2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de sunulan iterasyonlar ile ortadan kaldırılmaktadır.
+\end_layout
+
+\begin_layout Standard
+Üst yapının ön tasarımı için gerekli taban kesme kuvveti, bu yöntemde yalıtım
+ düzleminde oluşan kesme kuvvetine göre hesaplanmaktadır.
+ Tasarımda takip edilen yönetmeliğe bağlı olarak taban kesme kuvvetinin
+ belirlenmesi ve bu kuvvetin üst yapı katlarına dağıtılma biçimi farklılık
+ göstermektedir.
+ EN 1998-1:2004'e göre, katlara etkiyen yatay kuvvetler eşdeğer periyot
+ ve sönüme göre hesaplanacak spektral ivmenin, ilgili kat kütlesi ile çarpımında
+n elde edilmektedir
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Eurocode2004"
+literal "false"
+
+\end_inset
+
+.
+ Burada kat kütlelerinin eşit olduğu kabulü yapılırsa kesme kuvvetlerinin
+ katlara eşit miktarda dağıtıldığı görülmektedir.
+ Ayrıca yalıtım birimi seviyesinde meydana gelen kesme kuvvetinin yapı kütlesine
+ oranı ile üst yapı taban kesme kuvvetinin üst yapı toplam kütlesine oranı
+ eşit olmaktadır.
+\end_layout
+
+\begin_layout Standard
+ASCE/SEI-7-10 (2010) ve TBDY (2018) yönetmeliklerinde yer alan formüle göre
+ taban kesme kuvveti, yalıtım seviyesinde oluşan kesme kuvvetine eşit alınarak
+ üst yapı katlarına üçgen formunda dağıtılmaktadır 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ASCE2010,TBDY2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ASCE/SEI-41-13 (2014) ve ASCE/SEI-7-16 (2016) yönetmeliklerinde ise yalıtım
+ düzleminde oluşacak kesme kuvveti, yapı taban kesme kuvvetine eşit olarak
+ alınmamaktadır 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ASCE41-13,ASCE2016"
+literal "false"
+
+\end_inset
+
+.
+ York ve Ryan tarafından yapılan çalışma, eşdeğer viskoz sönüm oranının
+ artması halinde, yapı taban kesme kuvvetinin yalıtım düzleminde oluşan
+ kesme kuvvetine oranının da artacağını göstermektedir 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "doi:10.1080/13632460802003751"
+literal "false"
+
+\end_inset
+
+.
+ Buna bağlı olarak önerilen formül, istatistiksel parametreyi temsil eden
+ katsayıda bulunan değişiklik ile birlikte bu güncel yönetmeliklerde yer
+ almaktadır.
+ Elde edilen artırılmış taban kesme kuvveti ise katlara çalışmada önerilen
+ formülün güncel haline göre paylaştırılmaktadır.
+\end_layout
+
+\begin_layout Standard
+TBDY (2018) yönetmeliğine göre hesaplanacak taban kesme kuvvetinde belirlenecek
+ deprem yükü azaltma katsayısı 
+\begin_inset Formula $R$
+\end_inset
+
+, hedeflenecek kesintisiz kullanım ve sınırlı hasar performans düzeyleri
+ için dayanım fazlalığı katsayısı 
+\begin_inset Formula $D$
+\end_inset
+
+ ile eşit verilmektedir 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TBDY2018"
+literal "false"
+
+\end_inset
+
+.
+ Benzer olarak ASCE/SEI-7-10 (2010) yönetmeliğinde belirtilen formülde yer
+ alan 
+\begin_inset Formula $R_{1}$
+\end_inset
+
+ katsayısı, üst yapı yatay taşıyıcı sistemine bağlı olarak belirlenecek
+ 
+\begin_inset Formula $R$
+\end_inset
+
+ katsayısının 
+\begin_inset Formula $3/8$
+\end_inset
+
+'i alınarak hesaplanmakta ve en fazla 
+\begin_inset Formula $2$
+\end_inset
+
+ olarak belirlenebilmektedir 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ASCE2010"
+literal "false"
+
+\end_inset
+
+.
+ Dolayısıyla 
+\begin_inset Formula $R_{1}$
+\end_inset
+
+ katsayısı, hiçbir taşıyıcı sistem için dayanım fazlalığı katsayısı 
+\begin_inset Formula $\Omega_{\text{0}}$
+\end_inset
+
+'dan büyük olmamaktadır.
+ Böylece yapının karşılaşması beklenen en büyük deprem etkisi altında elastik
+ sınırlar içinde kalması, yalnızca eşdeğer doğrusal analiz yönteminin belirlediğ
+i kabuller çerçevesinde, yalıtım düzlemi kesme kuvvetinin üst yapı taban
+ kesme kuvvetine eşit olması durumunda mümkün olmaktadır.
+\end_layout
+
+\end_body
+\end_document
