@@ -1,7 +1,7 @@
 # itutezLyX
 Istanbul Technical University M.S. and Ph.D. Thesis in LyX
 
-This is a LyX template/structure for Istanbuş Technical University, Faculty of Engineering M.S. and Ph.D. Thesis.
+This is a LyX template/structure for Istanbul Technical University, Faculty of Engineering M.S. and Ph.D. Thesis.
 
 There are several things that needs to be done before starting to use the template files.
 
