@@ -1,0 +1,7 @@
+*.lyx~
+*.aux
+*.out
+*.log
+*.gz
+*.backup
+*.sav
