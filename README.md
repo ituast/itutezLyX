@@ -1,5 +1,5 @@
 # itutezLyX
-Istanbul Technical University M.S. and Ph.D. Thesis in LyX
+Istanbul Technical University M.S. and Ph.D. Thesis in LyX (UNOFFICIAL)
 
 This is a LyX template/structure for Istanbul Technical University, Faculty of Engineering M.S. and Ph.D. Thesis.
 
