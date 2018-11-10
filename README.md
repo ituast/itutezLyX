@@ -37,9 +37,9 @@ We will assume you are running LyX version 2.3.1-1
 * Restart LyX.
 * ITU Thesis Layout should appear at "Document" menu, "Document Settings," "Document Class" section, "Document Class" list, "Reports" section as "ITU Tez".
 
-## How to Write Thesis
+The main LyX file for the thesis is `tezLyX.lyx". You should export to "PDF (pdflatex)" to see if everyhing works fine. A fully working pacakge is provided, so you should see a sample PDF generated. Then you can edit your files as explained below to write your thesis.
 
-The main LyX file for the thesis is `tezLyX.lyx". You should export to "PDF (pdflatex)" to see if everyhing works fine. Then you can edit your files as explianed below to write your thesis
+## How to Write Thesis
 
 First of all, you can start by writing your chapters in LyX. From the main LyX file click to one of the chapters, and select "Edit." This will open up the corresponding chapter. You can now write your thesis chapter.
 
