@@ -91,6 +91,39 @@ status open
 
 \begin_layout Plain Layout
 
+%Bu bölüm resim koymak içindir.
+ Resim koymak istemiyorsanız, resim dosyasının tanımlandığı satırın başına
+ 
+\begin_inset Quotes eld
+\end_inset
+
+%
+\begin_inset Quotes erd
+\end_inset
+
+ işareti koyabilirsiniz.
+\end_layout
+
+\begin_layout Plain Layout
+
+%Resim koymak istiyorsanız, kendi resminizin dosyasını 
+\begin_inset Quotes eld
+\end_inset
+
+CV.jpg
+\begin_inset Quotes erd
+\end_inset
+
+ olarak kaydetmeniz yeterlidir ve bu bu bölümde herhangi bir değişiklik
+ yapmanıza gerek yoktur.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
 newsavebox{

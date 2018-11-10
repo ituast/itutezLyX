@@ -37,7 +37,7 @@ We will assume you are running LyX version 2.3.1-1
 * Restart LyX.
 * ITU Thesis Layout should appear at "Document" menu, "Document Settings," "Document Class" section, "Document Class" list, "Reports" section as "ITU Tez".
 
-The main LyX file for the thesis is `tezLyX.lyx". You should export to "PDF (pdflatex)" to see if everyhing works fine. A fully working pacakge is provided, so you should see a sample PDF generated. Then you can edit your files as explained below to write your thesis.
+The main LyX file for the thesis is `tezLyX.lyx`. You should export to "PDF (pdflatex)" to see if everyhing works fine. A fully working package is provided, so you should see a sample PDF generated. Then you can edit your files as explained below to write your thesis.
 
 ## How to Write Thesis
 
@@ -56,11 +56,15 @@ Other files that need to be completed are:
 * `sembollerLyX.lyx`
 * `summaryLyX.lyx`
 
-These are LyX files bu the main LyX file will look for their `*.tex` version. Therefore, they need to be converted to LaTeX as follows:
+These are LyX files but the main LyX file will look for their `*.tex` versions. Therefore, they need to be converted to LaTeX as follows:
 
 * Export the `*.lyx` file to "LaTeX (pdflatex)."
-* Edit the exported `*.tex` file erase the parts above and including `\begin{document}` and erase the last line `\end{document}`
+* Edit the exported `*.tex` file and erase the parts above and including `\begin{document}` and erase the last line `\end{document}`
 
-Before making cahnges to the `*.tex` files, it is highly recommended that you save the existing files first, and look in them see how they are formatted. Some of the `.tex` files are simple text files wityhout any LaTeX code in it (e.g `onsozLyX.tex` file), so for those you do not need to work LyX files; just modify the `*.tex` file with an editor.
+Before making cahnges to the `*.tex` files, it is highly recommended that you save the existing files first, look at them and see how they are formatted. Some of the `.tex` files are simple text files without any LaTeX code in it (e.g `onsozLyX.tex` file); so for those, you do not need to work in LyX; just modify the `*.tex` file with a text editor.
 
 Also note that `*.tex` files are called in the main LyX file at "Document" menu, "Document Settings," "LaTeX Preamble" section. If you like, you can change the names of these files as needed.
+
+## Questions
+
+For questions, please contact to [Baris Erkus](mailto:bariserkus@itu.edu.tr)
