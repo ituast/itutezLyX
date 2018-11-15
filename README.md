@@ -5,7 +5,7 @@ Istanbul Technical University Thesis in LyX (UNOFFICIAL)
 This is a LyX template/structure for Istanbul Technical University, Faculty of Engineering M.S. and Ph.D. Theses.
 
 ## What's New?
-* Udpates to include ITU Earthquake Engineering and Disaster Management Institute
+* Udpated to include ITU Earthquake Engineering and Disaster Management Institute
 
 There are several things that need to be done before starting to use the template files.
 
