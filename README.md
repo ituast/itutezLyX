@@ -10,7 +10,8 @@ This is a LyX template/structure for Istanbul Technical University, Faculty of E
 There are several things that need to be done before starting to use the template files.
 
 1. Need to install `itutez.cls` and `itutez.bst` files to your LaTeX system.
-2. Install `itutez.layout` file to LyX
+2. Install `itutez.layout` file to LyX.
+2a. Some adjustment to LyX PDF graphics viewer.
 3. Understand how `ch??LyX.lyx` files work.
 4. Understand how input `*.tex` files work.
 5. All files have to be UTF8 encoded. If it is LyX file, this has to be done from Settings > Language > Encoding.
@@ -39,7 +40,25 @@ We will assume you are running LyX version 2.3.1-1
 * Restart LyX.
 * ITU Thesis Layout should appear at "Document" menu, "Document Settings," "Document Class" section, "Document Class" list, "Reports" section as "ITU Tez".
 
-The main LyX file for the thesis is `tezLyX.lyx`. You should export to "PDF (pdflatex)" to see if everyhing works fine. A fully working package is provided, so you should see a sample PDF generated. Then you can edit your files as explained below to write your thesis.
+## Some adjustments to LyX PDF previewer. 
+
+It is recommended that only PDF files are used for plots. Default LyX will show the PDFs with lower quality on the screen, when scaled. To solve this problem you need to tell to increase the resolution of the preview image as follows:
+
+* Start LyX and do not open a file.
+* Go to "Preferences" under the "Tools" menu.
+* Go to "Converters" under the "File Handling" section.
+* Select "PDF(graphics)" from "From Format:" and "PNG" from "To Format:"
+* To "Converter:" write : `convert -density *** -trim -quality 100 -sharpen 0x1.0 $$i $$o`, where *** can be 200 to start with. You may try other values based on the results.
+* Click "Add" button.
+* Click "Save" button.
+* Select "Reconfigure" under "Tools" menu.
+* Restart LyX.
+
+## Verification
+
+The main LyX file for the thesis is `tezLyX.lyx`. You should export it to "PDF (pdflatex)" to see if everyhing works fine.
+
+A fully working package is provided, so you should see a sample PDF generated. Then you can edit your files as explained below to write your thesis.
 
 ## How to Write Thesis
 
