@@ -134,7 +134,7 @@
 \ozet{\input{ozetLyX.tex}}
 \summary{\input{summaryLyX.tex}}
 \end_preamble
-\options onluarkali,turkce,yukseklisans,bez,fenbilimleri
+\options onluarkali,turkce,yukseklisans,bez,deprem
 \use_default_options true
 \maintain_unincluded_children false
 \language english
