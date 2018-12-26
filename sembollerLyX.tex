@@ -1,95 +1,155 @@
-\noindent \hspace{-3mm} %
-\begin{tabular}{p{2cm}l}
-$a$  & \textbf{:} Denklem ASCE'da belirtilen istatistiksel parametre \tabularnewline
-$a_{0}$  & \textbf{:} Rayleigh sönüm matrisi için kütle matrisi çarpanı \tabularnewline
-$a_{1}$  & \textbf{:} Rayleigh sönüm matrisi için rijitlik matrisi çarpanı \tabularnewline
-$\mathbf{C}$ & \textbf{:} Sismik yalıtım sistemi sönüm matrisi \tabularnewline
-$\boldgreek{\updelta}$ & \textbf{:} Yalıtım birimi sönüm matrisi $\boldgreek{\updelta}$\tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
-\end{tabular}
+\global\long\def\tabcolsep{1pt}%
+\renewcommand\arraystretch{1.1}%
 
-\begin{tabular}{p{2cm}l}
- & \textbf{:} Üst yapı taban kesme kuvvetinin yalıtım düzleminde oluşturduğu \tabularnewline
- & tepki kuvveti \tabularnewline
- & \textbf{:} i zaman adımı için kuvvet fonksiyonu vektörü \tabularnewline
- & \textbf{:} Bağımsız yalıtım düzlemindeki 1. yapının taban kesme kuvveti \tabularnewline
- & \textbf{:} Bağımsız yalıtım düzlemindeki 2. yapının taban kesme kuvveti \tabularnewline
- & \textbf{:} Ortak yalıtım düzlemindeki i. yapının taban kesme kuvvetinin \tabularnewline
- & yalıtım düzleminde oluşturduğu tepki kuvveti \tabularnewline
- & \textbf{:} Ortak yalıtım düzlemindeki 1. yapının taban kesme kuvveti \tabularnewline
- & \textbf{:} Ortak yalıtım düzlemindeki 2. yapının taban kesme kuvveti \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
- & \tabularnewline
-\end{tabular}
+\noindent \hspace{-3mm} %
+\begin{longtable}{>{\raggedright}p{1cm}l>{\raggedright}p{13.4cm}}
+$a_{0}$ & : & Rayleigh sönüm matrisi için kütle matrisi çarpanı\tabularnewline
+$a_{1}$ & : & Rayleigh sönüm matrisi için rijitlik matrisi çarpanı\tabularnewline
+$a_{1}$ & : & Menegotto-Pinto modelinde Baushinger malzeme sabitleri\tabularnewline
+$a_{2}$ & : & Menegotto-Pinto modelinde Baushinger malzeme sabitleri\tabularnewline
+$A_{\text{co}}$ & : & Sheik ve Uzumeri modelinde beton çekirdek alanı\tabularnewline
+$A_{\text{s}}$ & : & Sheik-Uzumeri ve Saatçioğlu-Ravzi modellerinde enine donatı alanı\tabularnewline
+$A_{\text{sx}}$ & : & Mander modelindende $x$-doğrultusunda uzanan toplam enine donatı
+kesit alanı\tabularnewline
+$A_{\text{sy}}$ & : & Mander modelindende $y$-doğrultusunda uzanan toplam enine donatı
+kesit alanı\tabularnewline
+$b$ & : & Mander modelindende enine donatı merkezlerinden ölçülen çekirdek betonunun
+$x$-yönüne paralel boyutu\tabularnewline
+$b$ & : & Sheik-Uzumeri modelinde çekirdek betonun kenar uzunluğu\tabularnewline
+$b_{\text{c}}$ & : & Saatçioğlu-Ravzi modelindende kare kesit çekirdek betonu uzunluğu\tabularnewline
+$b_{\text{cx}}$ & : & Saatçioğlu- Ravzi modelindende çekirdek betonun $x$-doğrultusu uzunluğu\tabularnewline
+$b_{\text{cy}}$ & : & Saatçioğlu-Ravzi modelindende çekirdek betonun $y$-doğrultusu uzunluğu\tabularnewline
+$\mathbf{b}$ & : & Fiber modelde kuvvet interpolasyon fonksiyonu\tabularnewline
+$C$ & : & Sheik ve Uzumeri modelinde düşey donatıların eksenleri arasındaki
+uzaklık\tabularnewline
+$\mathbf{C}$ & : & Sönüm matrisi\tabularnewline
+$\mathbf{d}$ & : & Şekil değiştirme matrisi\tabularnewline
+$\mathbf{D}$ & : & İç kuvvet matrisi\tabularnewline
+$E_{\mathrm{c}}$ & : & Betonun elastisite modülü \tabularnewline
+$E_{\text{s}}$ & : & Donatı çeliğinin elastisite modülü\tabularnewline
+$E_{\text{sh}}$ & : & Mander çelik modelindende pekleşme modülü\tabularnewline
+$F_{\text{y}}$ & : & Akma gerilmesi\tabularnewline
+$E_{\text{t}}$ & : & Mander çelik modelindende tanjant elastisite modülü\tabularnewline
+$f_{\text{c}}$ & : & Hognestod, Mander ve Kent-Park modellerinde beton basınç gerilmesi\tabularnewline
+$f_{\text{c}}^{''}$ & : & Hognestod modelindende betonun maksimum basınç dayanımı\tabularnewline
+$f_{\text{c}}^{'}$ & : & Hognestod modelindende beton karakteristik basınç dayanımı\tabularnewline
+$\mathit{f}_{\text{c}}'$ & : & Sheik ve Uzumeri modelindende sargılı beton basınç dayanımı\tabularnewline
+$f_{\text{cc}}^{'}$ & : & Sheik ve Uzumeri modelindende beton basınç gerilmesi\tabularnewline
+$f_{\text{cc}}^{'}$ & : & Mander modelindende sargılı betonda kırılma anında birim şekil değiştirmesi\tabularnewline
+$f_{\text{co}}^{'}$ & : & Mander modelindende sargısız betonun basınç dayanımı \tabularnewline
+$f_{\text{l}}^{'}$ & : & Mander modelindende ortalama etkili sargılama basıncı\tabularnewline
+$f_{\text{lx}}^{'}$ & : & Mander modelindende $x$-doğrultusundaki etkili sargılama basıncı\tabularnewline
+$f_{\text{ly}}^{'}$ & : & Mander modelindende $y$-doğrultusundaki etkili sargılama basıncı\tabularnewline
+$f_{\text{yh}}$ & : & Mander modelindende enine donatının akma dayanımı\tabularnewline
+$f_{\text{yt}}$ & : & Enine donatının akma dayanımı\tabularnewline
+$f_{\text{1e}}$ & : & Saatçioğlu ve Ravzi modelindende ortalama yanal sargı basıncı\tabularnewline
+$f_{\text{1ex}}$ & : & Saatçioğlu ve Ravzi modelindende $x$-doğrultusunda oluşan etkili
+sargı basıncı\tabularnewline
+$f_{\text{1ey}}$ & : & Saatçioğlu ve Ravzi modelindende $y$-doğrultusunda oluşan etkili
+sargı basıncı\tabularnewline
+$f_{\text{yw}}$ & : & Kent-Park modelindende enine donatının akma dayanımı\tabularnewline
+$f_{\text{sy}}$ & : & Mander çelik modelindende donatı akma dayanımı\tabularnewline
+$f_{\text{su}}$ & : & Mander çelik modelindende donatı nihai dayanımı\tabularnewline
+$f_{\text{s}}^{'}$ & : & Sheik ve Uzumeri modelinde enine donatının akma dayanımı\tabularnewline
+$\mathbf{f}$ & : & Fleksibilite (esneklik) matrisi\tabularnewline
+$\mathbf{F}_{\text{s}}$ & : & Rijitlik tarafından üretilen kuvvet\tabularnewline
+$\mathbf{F}_{\text{s},i}^{\text{denge}}$ & : & Dengelenmemiş kuvvet\tabularnewline
+$\mathbf{F}_{\text{s},i}^{\text{kabul}}$ & : & Başlangıç rijitliğine bağlı olarak varsayılan kuvvet\tabularnewline
+$\mathbf{F}_{\text{s},i}^{\text{içkuv}}$ & : & Bünye fonksiyonlarından elde edilen iç kuvvet\tabularnewline
+$h^{'}$ & : & Kent-Park modelinde sargılı beton kısmının etriye dışından etriye
+dışına genişliği\tabularnewline
+$h$ & : & Mander modelinde enine donatı merkezlerinden ölçülen çekirdek betonunun
+$y$-yönüne paralel boyutu\tabularnewline
+$\text{k}_{\text{e}}$ & : & Mander modelinde sargılamanın etkinliği ile ilgili katsayı\tabularnewline
+$K_{\text{s}}$ & : & Pekleşme rijitliği \tabularnewline
+$K_{\text{e}}$ & : & Başlangıç rijitliği\tabularnewline
+$\mathbf{K}_{\text{T},i}^{j}$ & : & $i.$ zaman adımı ve $j.$ iterasyon için rijitlik matrisi \tabularnewline
+$\mathbf{K}$ & : & Eleman rijitlik matrisi\tabularnewline
+$M_{y}$ & : & $y$-eksenine göre eğilme momenti\tabularnewline
+$M_{z}$ & : & $z$-eksenine göre eğilme momenti\tabularnewline
+$\mathbf{M}$ & : & Kütle matrisi\tabularnewline
+$n$ & : & Mander modelinde ve Sheik-Uzumeri modellerinde boyuna donatı sayısı\tabularnewline
+$N$ & : & Eksenel kuvveti\tabularnewline
+$\mathbf{P}$ & : & Dış kuvvetler\tabularnewline
+$\mathbf{Q}$ & : & Serbestlik derecesindeki kuvvetler\tabularnewline
+$R$ & : & Menegotto-Pinto modelinde Baushinger etki katsayısı\tabularnewline
+$R_{0}$ & : & Menegotto-Pinto modelinde Baushinger malzeme sabitleri\tabularnewline
+$s$ & : & Saatçioğlu-Ravzi, Sheik-Uzumeri, Kent-Park modellerinde etriye aralığı\tabularnewline
+$s^{'}$ & : & Mander modelinde etriye aralığı\tabularnewline
+$u$ & : & $x$-eksenine göre göreceli yer değiştirmelesi\tabularnewline
+$\mathbf{u}$ & : & Yer değiştirme matrisi\tabularnewline
+$\dot{\mathbf{u}}$ & : & Yer değiştirmenin birinci türevi\tabularnewline
+$\ddot{\mathbf{u}}$ & : & Yer değiştirmenin ikinci türevi\tabularnewline
+$v$ & : & $z$-eksenine göre göreceli yer değiştirmesi\tabularnewline
+$V_{b}$ & : & Yapı taban kesme kuvveti \tabularnewline
+$w$ & : & $y$-eksenine göre göreceli yer değiştirmesi\tabularnewline
+$w_{\text{i}}$ & : & Mander modelinde düşey donatıların eksenleri arasındaki uzaklık\tabularnewline
+$w_{\text{i}}$ & : & Yapının $i$. moduna ait açısal frekansı\tabularnewline
+$w_{\text{j}}$ & : & Yapının $j$. moduna ait açısal frekansı\tabularnewline
+$\alpha$ & : & Enine donatı ve o doğrultudaki çekirdek betonu arasındaki açı \tabularnewline
+$\beta$ & : & Menegotto-Pinto modelinde pekleşme-rijitliği ile elastisite modülü
+oranı\tabularnewline
+$\beta$ & : & Newmark integrasyon sabiti \tabularnewline
+$\rho$ & : & Saatçioğlu ve Ravzi modelinde enine donatının hacimsel oranı\tabularnewline
+$\rho_{\text{cc}}$ & : & Mander modelinde toplam boyuna donatının beton çekirdek alanına oranı\tabularnewline
+$\rho_{\text{s}}$ & : & Sheik-Uzumeri ve Kent-Park modellerinde enine donatının hacimsel oranı\tabularnewline
+$\gamma$ & : & Newmark integrasyon sabiti \tabularnewline
+\noindent \textit{$\varepsilon$} & : & Eksenel yer değiştirmeler\tabularnewline
+$\varepsilon$ & : & Hognestod modelinde maksimum basınç gerilmesi anındaki birim şekil
+değiştirmesi\tabularnewline
+$\varepsilon_{\mathrm{c}}$ & : & Hognestod ve Saatçioğlu-Ravzi modellerinde beton birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{co}}$ & : & Mander modelinde sargısız betonda maksimum basınç gerilmesi anında
+birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{cu}}$ & : & Mander modelinde sargılı betonda kırılma anında birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{o}}$ & : & Hognestod modelinde maksimum basınç anında birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{oo}}$ & : & Sheik ve Uzumeri modelinde maksimum gerilmeye karşılık gelen birim
+şekil değiştirmesi \tabularnewline
+$\varepsilon_{\text{s}}$ & : & Mander çelik modelinde donatı birim şekil değiştirme değeri\tabularnewline
+$\varepsilon_{\text{sh}}$ & : & Mander çelik modelinde donatının pekleşmeye başladığı andaki birim
+şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{su}}$ & : & Mander çelik modelinde donatı kopma birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{s1}}$ & : & Sheik ve Uzumeri modelinde sargılı betonun maksimum gerilmedeki birim
+şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{s2}}$ & : & Sheik ve Uzumeri modelinde sargılı betonun maksimum gerilmede yapabileceği
+maksimum birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{s85}}$ & : & Sheik ve Uzumeri modelinde sargılı betonun maksimum gerilmesinin \%85'
+ine karşılık gelen birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{s1}}$ & : & Sheik ve Uzumeri modelinde sargılı betonun maksimum gerilmedeki birim
+şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{s2}}$ & : & Sheik ve Uzumeri modelinde sargılı betonun maksimum gerilmede yapabileceği
+maksimum birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{s85}}$ & : & Sheik ve Uzumeri modelinde sargılı betonun maksimum gerilmesinin \%85'
+ine karşılık gelen birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{s}}^{*}$ & : & Menegotto-Pinto modelinde donatı birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{u}}$ & : & Hognestod modelinde kırılma anında birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{y}}$ & : & Mander çelik modelinde donatının akma birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{1}}$ & : & Saatçioğlu ve Ravzi modelinde maksimum gerilmeye karşılık gelen birim
+şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{01}}$ & : & Saatçioğlu ve Ravzi modelinde sargısız betonda maksimum basınç gerilmesine
+karşılık gelen birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{50u}}$ & : & Kent-Park modelinde sargısız betona ait gerilmenin sargısız betonun
+maksimum gerilmesinin \%50’sine eşit olduğu andaki birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{50c}}$ & : & Kent-Park modelinde sargılı betona ait gerilmenin sargılı betonun
+maksimum gerilmesinin \%50’sine eşit olduğu durumdaki birim şekil
+değiştirmesi\tabularnewline
+$\varepsilon_{\text{50h}}$ & : & Kent ve Park modelindende $\mathit{\varepsilon_{\text{50u}}}$ ile
+$\varepsilon_{\text{50c}}$ arasındaki birim şekil değiştirme farkı\tabularnewline
+$\varepsilon_{\text{085}}$ & : & Saatçioğlu ve Ravzi modelinde sargısız betonda maksimum basınç gerilmesinin
+\%85'ine karşılık gelen birim şekil değiştirmesi\tabularnewline
+$\varepsilon_{\text{85}}$ & : & Saatçioğlu ve Ravzi modelinde sargılı betonda maksimum basınç gerilmesinin
+\%85'ine karşılık gelen birim şekil değiştirmesi\tabularnewline
+$\kappa$ & : & Eğrilik\tabularnewline
+$\lambda_{\text{c}}$ & : & Mander modelinde sargılı beton dayanımının sargısız beton dayanımına
+oranı\tabularnewline
+$\xi$ & : & Menegotto-Pinto modelinde son çevrimdeki plastik birim şekil değiştirme
+değeri\tabularnewline
+$\xi_{i}$ & : & Yapının $i.$ açısal frekansına karşılık gelen sönüm oranı \tabularnewline
+$\xi_{j}$ & : & Yapının $j.$ açısal frekansına karşılık gelen sönüm oranı \tabularnewline
+$\sigma_{\text{s}}^{*}$ & : & Menegotto-Pinto modelinde donatı akma gerilmesi\tabularnewline
+$\sigma_{\text{sa}}$ & : & Menegotto-Pinto modelinde ilk geri yüklemedeki gerilme değeri\tabularnewline
+$\sigma_{\text{so}}$ & : & Menegotto-Pinto modelinde ilk yükleme akma noktasındaki gerilme değeri\tabularnewline
+\end{longtable}
+
+\noindent 
+\global\long\def\tabcolsep{6pt}%
+\renewcommand\arraystretch{1.0}%

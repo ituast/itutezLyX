@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass itutez
+\textclass itutezLyX
 \begin_preamble
 % ---------------------------------------------------------------- %
 %                     LATEX Tez Sablonu                            %
@@ -25,11 +25,11 @@
 % [onluarkali,tekyonlu],[turkce,ingilizce],[yukseklisans,doktora], %
 % [bez,karton],[bilisim,fenbilimleri,sosyalbilimler,avrasya,enerji]%
 % Ornek kullanim: \documentclass[onluarkali,ingilizce,yukseklisans,%
-% karton,fenbilimleri]{itutez}                                     %
+% karton,fenbilimleri]{itutezLyX}                                     %
 % Baska Ornek kullanim: \documentclass[tekyonlu,ingilizce,         %
-% yukseklisans,bez,bilisim]{itutez}                                %
+% yukseklisans,bez,bilisim]{itutezLyX}                                %
 % ---------------------------------------------------------------- %
-% \documentclass[onluarkali,turkce,yukseklisans,bez,fenbilimleri]{itutez}
+% \documentclass[onluarkali,turkce,yukseklisans,bez,fenbilimleri]{itutezLyX}
 % documentclass LyX içerisinde tanımlanmıştır. BE. 2018-10-05
 % ---------------------------------------------------------------- %
 % Komutlarda buyuk ve kucuk harf ayrimina ozen gostermek           %
@@ -42,8 +42,8 @@
 % ---------------------------------------------------------------- %
 % Sadece Ad SOYAD yazilmalidir. Unvan yazilmamalidir.              %
 % ---------------------------------------------------------------- %
-\yazar{Mücahit}{BEKİN} 
-\ogrencino{501151035}
+\yazar{Ş\"ukriye Ceyda}{ERG\"UL} 
+\ogrencino{802151221}
 
 % ---------------------------------------------------------------- %
 % Kullanmayacaginiz yapilarin ayirac aralarini bos birakiniz.      %
@@ -59,17 +59,16 @@
 % ---------------------------------------------------------------- %
 % Sozcuklerin ilk harfleri buyuk, diger harfler kucuk yazilacak.   %
 % ---------------------------------------------------------------- %
-\anabilimdali{İnşaat Mühendisliği Anailim Dalı}{Department of Civil Engineering}
-
-\programi{Yapı Mühendisliği Programı}{Structure Engineering Programme}
+\anabilimdali{Deprem M\"uhendisli\u{g}i Anabilim Dal{\i}}{Department of Earthquake Engineering}
+\programi{Deprem M\"uhendisli\u{g}i Program{\i}}{Earthquake Engineering Programme}
 
 % ---------------------------------------------------------------- %
 % Beyaz cilt hazirlarken bolume verildigi tarih esas alinir.       %
 % Bez (mavi-siyah) ciltte ise tezin savunuldugu tarih ay yil       %
 % olarak yazilir.                                                  %
 % ---------------------------------------------------------------- %
-\tarih{HAZİRAN 2018}{JUNE 2018}
-\tarihKucuk{Haziran 2018}{June 2018}
+\tarih{KASIM 2018}{NOVEMBER 2018}
+\tarihKucuk{Kas{\i}m 2018}{November 2018}
 
 % ---------------------------------------------------------------- %
 % Danisman, baslik ve tez tarihi bilgileri icin asagidaki yapi     %
@@ -80,22 +79,17 @@
 % Danisman bilgisi, beyaz kapakli tezde ilk sayfada var. Bez       %
 % (mavi-siyah) ciltte yok. Neden? Cunku ic kapakta gececek.        %                  
 % ---------------------------------------------------------------- %
-\tezyoneticisi{Dr. Öğr. Üyesi Barış ERKUŞ}{İstanbul Teknik Üniversitesi}   
+\tezyoneticisi{Dr. Öğr. Üyesi Barış ERKUŞ}{\.Istanbul Teknik \"Universitesi}   
 
-\baslik{ORTAK YALITIM DÜZLEMİNDE BULUNAN}
-{SİSMİK YALITIMLI İKİ BAĞIMSIZ YAPININ}
-{KAPSAMLI PARAMETRİK İNCELENMESİ}
-
-\title{COMPREHENSIVE PARAMETRIC INVESTIGATION OF}
-{TWO BASE ISOLATED STRUCTURES}
-{WITH COMMON ISOLATION PLANE}
+\baslik{OPENSEES VE SEISMOSTRUCT PROGRAMLARININ}{DOĞRUSAL OLMAYAN DEPREM ANALİZLERİ İÇİN}{KARŞILAŞTIRILMASI}{}
+\title{COMPARISON OF OPENSEES AND SEISMOSTRUCT PROGRAMS}{FOR NONLINEAR EARTHQUAKE ANALYSIS}{}
 
 % ---------------------------------------------------------------- %
 % Bu tarih beyaz kapakli ilk tezin bolume verildigi tarihtir.      %
 % ---------------------------------------------------------------- %
-\tezvermetarih{04 Mayıs 2018}{MAY 2018} 
+\tezvermetarih{16 Kasım 2018}{KASIM 2018} 
 
-\tezsavunmatarih{07 Haziran 2018}{JUNE 2018}
+\tezsavunmatarih{10 Aralık 2018}{ARALIK 2018}
 
 % ---------------------------------------------------------------- %
 % Esdanisman ve juri bilgileri asagidadir. Kullanmayacaginiz satiri%
@@ -104,9 +98,9 @@
 % ---------------------------------------------------------------- %
 \esdanismani{}{}   
 
-\juriBir{Dr. Öğr. Üyesi Barlas Özden ÇAĞLAYAN}{İstanbul Teknik Üniversitesi}
+\juriBir{Prof. Dr. Konuralp GİRGİN}{\.Istanbul Teknik \"Universitesi}
 
-\juriIki{Prof. Dr. Canan GİRGİN}{Yıldız Teknik Üniversitesi}
+\juriIki{Dr. Öğr. Üye. Sami And KILIÇ}{Boğaziçi \"Universitesi}  
 
 \juriUc{}{}
 
@@ -121,7 +115,7 @@
 % yapi asagidadir. Ithaf sayfasi bulunmayacaksa argumani(ayiraclar %
 % arasini) bos birakiniz.                                          %
 % ---------------------------------------------------------------- %
-\ithaf{Aileme,}
+\ithaf{Babam Cemal ERGÜL'ün anısına,}
 
 % ---------------------------------------------------------------- %
 % Asagida belirtilen tex uzantili dosyalarin icerigi               %
@@ -133,6 +127,42 @@
 \sembollistesi{\input{sembollerLyX.tex}}
 \ozet{\input{ozetLyX.tex}}
 \summary{\input{summaryLyX.tex}}
+
+%------------------------------------%
+% Packages added by BE
+\usepackage{hypenTR}
+\usepackage{longtable}
+%------------------------------------%
+
+%------------------------------------------------------------------%
+% Matrisler için bazı ek araçlar                                   %
+% Eğer \input olarak girilmiş LyX dosyalarında kullanılacaksa,     %
+% bunları o dosyaya kopyalayarak "Instant Preview ile denklemler   %
+% görülebilir                                                      %
+%                                                                  %
+\usepackage{upgreek}
+\usepackage{pdfrender}
+\newcommand*{\boldgreek}[1]{%
+  \textpdfrender{%
+    TextRenderingMode=FillStroke,%
+    LineWidth=.35pt,%
+  }{#1}%
+}
+%
+% BE, 2018-10-05
+%------------------------------------------------------------------%
+
+% ---------------------------------------------------------------- %
+% Custom commands
+% ---------------------------------------------------------------- %
+%\renewcommand*\arraystretch{1.5}   % To increase the row height of tables
+%Heceleme için hyphenpenalty değerini küçültebilirsiniz. 
+%Değer küçüldükçe hecelemek isteyecek, değer büyükdükçe hecelemekten kaçacaktır.
+%This block moved to the LaTeX file for convenience
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\widowpenalty=10000
+\clubpenalty=10000
 \end_preamble
 \options onluarkali,turkce,yukseklisans,bez,fenbilimleri
 \use_default_options true
