@@ -4,17 +4,18 @@ Istanbul Technical University Thesis in LyX (UNOFFICIAL)
 
 This is a LyX template/structure for Istanbul Technical University, Faculty of Engineering M.S. and Ph.D. Theses.
 
-## What's New?
+## What's New"?"
+
 * Udpated to include ITU Earthquake Engineering and Disaster Management Institute
 
 There are several things that need to be done before starting to use the template files.
 
 1. Need to install `itutez.cls` and `itutez.bst` files to your LaTeX system.
 2. Install `itutez.layout` file to LyX.
-2a. Some adjustment to LyX PDF graphics viewer.
-3. Understand how `ch??LyX.lyx` files work.
-4. Understand how input `*.tex` files work.
-5. All files have to be UTF8 encoded. If it is LyX file, this has to be done from Settings > Language > Encoding.
+3. Some adjustment to LyX PDF graphics viewer.
+4. Understand how `ch??LyX.lyx` files work.
+5. Understand how input `*.tex` files work.
+6. All files have to be UTF8 encoded. If it is LyX file, this has to be done from Settings > Language > Encoding.
 
 ## Installing `itutez.cls` and `itutez.bst` files
 
@@ -40,7 +41,7 @@ We will assume you are running LyX version 2.3.1-1
 * Restart LyX.
 * ITU Thesis Layout should appear at "Document" menu, "Document Settings," "Document Class" section, "Document Class" list, "Reports" section as "ITU Tez".
 
-## Some adjustments to LyX PDF previewer. 
+## Some adjustments to LyX PDF previewer
 
 It is recommended that only PDF files are used for plots. Default LyX will show the PDFs with lower quality on the screen, when scaled. To solve this problem you need to tell to increase the resolution of the preview image as follows:
 
