@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass itutez
+\textclass itutezLyX
 \use_default_options false
 \maintain_unincluded_children false
 \language english
@@ -146,6 +146,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename TikZ/SingleStructureAndFBD.pdf
+	lyxscale 50
 
 \end_inset
 
@@ -624,12 +625,13 @@ noprefix "false"
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename TikZ/MultiStructure.pdf
+	lyxscale 50
 	width 100line%
 
 \end_inset

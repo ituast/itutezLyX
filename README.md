@@ -2,21 +2,46 @@
 
 Istanbul Technical University Thesis in LyX (UNOFFICIAL)
 
-This is a LyX template/structure for Istanbul Technical University, Faculty of Engineering M.S. and Ph.D. Theses.
+This is a LyX template/structure for Istanbul Technical University, Faculty of Engineering M.S. and Ph.D. Theses. It is derived from the original thesis template prepared by the Institute of Informatics of ITU.
 
-## What's New?
+## What's New
+
+27 December 2018
+
+* Renamed the files with `LyX` extension, so that it will not be confused with the original ITU LaTeX class.
+* Updated the symbol table to use `longtable` so that it can extend mulpile pages automatically.
+* Fixed the spacing for figure and table lists headers.
+* Reorganized the preamble.
+
+28 November 2018
+
 * Udpated to include ITU Earthquake Engineering and Disaster Management Institute
+
+## Steps to Follow
 
 There are several things that need to be done before starting to use the template files.
 
-1. Need to install `itutez.cls` and `itutez.bst` files to your LaTeX system.
-2. Install `itutez.layout` file to LyX.
-2a. Some adjustment to LyX PDF graphics viewer.
-3. Understand how `ch??LyX.lyx` files work.
-4. Understand how input `*.tex` files work.
-5. All files have to be UTF8 encoded. If it is LyX file, this has to be done from Settings > Language > Encoding.
+1. Need to install a TeX system, LyX and supporting programs such as Jabref, SumatraPDF and etc...
+1. Need to install `itutezLyX.cls` and `itutezLyX.bst` files to your LaTeX system.
+1. Install `itutezLyX.layout` file to LyX.
+1. Some adjustment to LyX PDF-PNG graphics converter for viewing PDF figures from LyX.
+1. Understand how chapter files (`ch??LyX.lyx`) work.
+1. Understand how input `*.tex` files work.
+1. All files have to be UTF8 encoded. If it is LyX file, this has to be done from Settings > Language > Encoding.
 
-## Installing `itutez.cls` and `itutez.bst` files
+## Suggested Software to Install (for Windows)
+
+* MikTeX: a LaTeX system for Windows. Other OSs are also supported.
+* LyX: A visual tool for LaTeX files
+* JabRef: BibTeX and BibLaTeX bibliography editor
+* TeXMaker: A LaTeX editor
+* Notepad++: Extended editor for programming
+* ImageMagick: Image processing libraries, need to install convert tool
+* PDF XChange Pro: Licensed PDF tool for editing PDFs
+* Sumatra PDF: PDF viewer suitable for LaTeX documents
+* Cisco VPN: VPN to connect ITU network
+
+## Installing `itutezLyX.cls` and `itutezLyX.bst` files
 
 We will assume, you are using MikTeX on Windows
 
@@ -24,32 +49,34 @@ We will assume, you are using MikTeX on Windows
 * Create subfolders `tex` and `bibtex` under the folder `localtexmf`.
 * Create subfolder `latex` under the folder `tex`.
 * Create subfolder `bst` under the folder `bibtex`.
-* Copy `itutez.cls` into the `latex` subfolder and `itutez.bst` file into the `bst` subfolder.
+* Copy `itutezLyX.cls` into the `latex` subfolder and `itutezLyX.bst` file into the `bst` subfolder.
 * Start MikTeX Console as admin.
 * Under the "Settings" division, go to "Directories" tab.
 * Add the `localtexmf` folder to the list of directories.
 * Go to "Tasks" menu and click "Refresh filename database"
-* The  `itutez.cls` and `itutez.bst`  should be recognized by MikTeX.
+* The  `itutezLyX.cls` and `itutezLyX.bst`  should be recognized by MikTeX.
 
-## Installing `itutez.layout` file
+## Installing `itutezLyX.layout` file
 
 We will assume you are running LyX version 2.3.1-1
 
-* Copy `itutez.layout` file to `\LyX-Main-Folder\Resources\layouts` folder
+* Copy `itutezLyX.layout` file to `\LyX-Main-Folder\Resources\layouts` folder
 * Start LyX and Click "Reconfigure" under the "Tools" menu.
 * Restart LyX.
 * ITU Thesis Layout should appear at "Document" menu, "Document Settings," "Document Class" section, "Document Class" list, "Reports" section as "ITU Tez".
 
-## Some adjustments to LyX PDF previewer. 
+## Some adjustments to LyX PDF previewer
 
 It is recommended that only PDF files are used for plots. Default LyX will show the PDFs with lower quality on the screen, when scaled. To solve this problem you need to tell to increase the resolution of the preview image as follows:
 
+* Make sure the convert utility of ImageMagick is installed and made available to path.
 * Start LyX and do not open a file.
 * Go to "Preferences" under the "Tools" menu.
 * Go to "Converters" under the "File Handling" section.
 * Select "PDF(graphics)" from "From Format:" and "PNG" from "To Format:"
 * To "Converter:" write : `convert -density *** -trim -quality 100 -sharpen 0x1.0 $$i $$o`, where *** can be 200 to start with. You may try other values based on the results.
 * Click "Add" button.
+* Click "Apply" button.
 * Click "Save" button.
 * Select "Reconfigure" under "Tools" menu.
 * Restart LyX.
