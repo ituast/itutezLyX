@@ -149,6 +149,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename TikZ/StructuralModel.pdf
+	lyxscale 50
 
 \end_inset
 
@@ -187,14 +188,18 @@ noprefix "false"
 \end_inset
 
 'de verilen formüle göre belirlenerek toplanması ile elde edilmiştir.
- Her bir kat için yatay rijitlik değeri, toplam 16 adet 60x60 cm boyutlarında
- betonarme kolonların yatay rijitlikleri toplamına eşit olarak alınmıştır.
- Tüm yapı ve katlar için kat yüksekliği h=4m olarak belirlenmiştir.
- Betonarme elastisite modulü 
-\begin_inset Formula ${E}_{\text{c}}$
+ Her bir kat için yatay rijitlik değeri, toplam 16 adet 60 
+\begin_inset Formula $\times$
 \end_inset
 
-=32000 MPa olarak kabul edilmiştir.
+ 60 cm boyutlarında betonarme kolonların yatay rijitlikleri toplamına eşit
+ olarak alınmıştır.
+ Tüm yapı ve katlar için kat yüksekliği h=4m olarak belirlenmiştir.
+ Betonarme elastisite modulü 
+\begin_inset Formula $E_{\text{c}}=32000\text{ MPa}$
+\end_inset
+
+ olarak kabul edilmiştir.
  
 \begin_inset Formula 
 \begin{equation}
@@ -231,21 +236,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\backslash
-setlength{
-\backslash
-tabcolsep}{14pt}
-\end_layout
-
-\end_inset
-
- 
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -262,20 +253,16 @@ name "structures2"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="5">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -284,7 +271,7 @@ Yapı #
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -293,11 +280,11 @@ Kat Adedi
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${T}_{1}$
+\begin_inset Formula $T_{1}$
 \end_inset
 
  
@@ -305,11 +292,11 @@ Kat Adedi
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\omega}_{1}$
+\begin_inset Formula $\omega_{1}$
 \end_inset
 
  
@@ -317,11 +304,11 @@ Kat Adedi
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula ${\omega}_{n}$
+\begin_inset Formula $\omega_{\text{n}}$
 \end_inset
 
  
@@ -331,7 +318,7 @@ Kat Adedi
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -340,7 +327,7 @@ Kat Adedi
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -349,7 +336,7 @@ Kat Adedi
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -358,7 +345,7 @@ Kat Adedi
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -367,7 +354,7 @@ Kat Adedi
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -805,21 +792,6 @@ Kat Adedi
 \end_inset
 
 
-\begin_inset VSpace -6mm
-\end_inset
-
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -832,11 +804,11 @@ Tez çalışması kapsamında ortak yalıtım düzleminde bulunan yapıların, d
  özelliklerinin taban kesme kuvvetlerine olan etkisini incelemek üzere on
  adet yapı seçilmiştir.
  Kat sayıları birden ona kadar değişen yapıların kat rijitlikleri 
-\begin_inset Formula $\text{k}_{i}=0.0108\text{m}^{4}$
+\begin_inset Formula $\text{k}_{i}=0.0108\text{ m}^{4}$
 \end_inset
 
 , kat kütleleri 
-\begin_inset Formula $\text{m}_{i}=650\text{t}$
+\begin_inset Formula $m_{i}=650\text{ ton}$
 \end_inset
 
  ve üst yapıya ait sönüm oranları 
@@ -857,10 +829,10 @@ noprefix "false"
 
 'de sunulmuştur.
  Ayrıca, yalıtım düzlemi kütlesi her bir yapı için 
-\begin_inset Formula $\text{m}_{\text{b}}$
+\begin_inset Formula $m_{\text{b}}=981\text{ ton}$
 \end_inset
 
- = 981 t olarak alınmıştır.
+ olarak alınmıştır.
  Yalıtım birimlerine ait dinamik özellikler parametrik olarak belirlenmiş
  olup Bölüm'de detaylı olarak açıklanmıştır.
 \end_layout

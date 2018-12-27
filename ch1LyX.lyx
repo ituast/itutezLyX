@@ -84,7 +84,7 @@ GİRİŞ
 \begin_layout Standard
 \begin_inset CommandInset label
 LatexCommand label
-name "giris"
+name "CH1"
 
 \end_inset
 
@@ -239,12 +239,13 @@ literal "false"
 placement h!
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename TikZ/LRBIsolator.pdf
+	lyxscale 50
 
 \end_inset
 
@@ -311,12 +312,13 @@ noprefix "false"
 placement h!
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename TikZ/FPIsolator.pdf
+	lyxscale 50
 
 \end_inset
 
@@ -491,12 +493,13 @@ dir.
 placement h!
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename TikZ/StructuralEquivalentModel.pdf
+	lyxscale 50
 
 \end_inset
 
