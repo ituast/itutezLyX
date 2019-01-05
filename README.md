@@ -6,6 +6,11 @@ This is a LyX template/structure for Istanbul Technical University, Faculty of E
 
 ## What's New
 
+4 January 2018
+
+* Added appendices.
+* Included `array` class.
+
 27 December 2018
 
 * Renamed the files with `LyX` extension, so that it will not be confused with the original ITU LaTeX class.
