@@ -278,6 +278,126 @@ filename "ch4LyX.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "tez"
+options "itubib"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+eklerkapak{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 20pt*
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+singlespacing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+EK A.1 :
+\series default
+ Haritalar
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+EK A.2 :
+\series default
+ Diğer Haritalar
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+EK A.3 :
+\series default
+ Diğer Diğer Haritalar
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ctrl+Enter'a basılarak bir alt satıra geçilecek
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+eklerbolum{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "eklerLyX.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 \begin_inset ERT
 status open
 
@@ -289,15 +409,6 @@ ozgecmis{
 \backslash
 input{ozgecmisLyX.tex}}
 \end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintCited"
-bibfiles "tez"
-options "itubib"
 
 \end_inset
 
