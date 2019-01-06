@@ -1,7 +1,12 @@
 *.lyx~
+*.lyx#
 *.aux
 *.out
 *.log
 *.gz
 *.backup
 *.sav
+*.bak
+*.docx
+*.xlsx
+*.lnk
