@@ -1,0 +1,10 @@
+#% Do not delete the line below; configure depends on this      
+#  \DeclareLaTeXClass[itutezLyX]{ITU Tez}
+#  \DeclareCategory{Reports}
+
+Format 66
+Input stdclass.inc
+Input numreport.inc
+
+# Input general definitions
+Input report.layout

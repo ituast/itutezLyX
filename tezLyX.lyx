@@ -167,7 +167,7 @@
 \options onluarkali,turkce,yukseklisans,bez,deprem
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language turkish
 \language_package none
 \inputencoding utf8
 \fontencoding global
