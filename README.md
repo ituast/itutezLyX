@@ -2,9 +2,14 @@
 
 Istanbul Technical University Thesis in LyX (UNOFFICIAL)
 
-This is a LyX template/structure for Istanbul Technical University, Faculty of Engineering M.S. and Ph.D. Theses. It is derived from the original thesis template prepared by the Institute of Informatics of ITU.
+This is a LyX template/structure for Istanbul Technical University, Faculty of Engineering M.S. and Ph.D. Theses. It is derived from the original LaTeX thesis template prepared by the Institute of Informatics of ITU.
 
 ## What's New
+
+8 January 2018
+
+* Set all language to Turkish.
+* Added Hunspell Turkish Dictionary files.
 
 4 January 2018
 
@@ -30,20 +35,21 @@ There are several things that need to be done before starting to use the templat
 1. Need to install `itutezLyX.cls` and `itutezLyX.bst` files to your LaTeX system.
 1. Install `itutezLyX.layout` file to LyX.
 1. Some adjustment to LyX PDF-PNG graphics converter for viewing PDF figures from LyX.
+1. Setup Turkish Hunspell Dictionary
 1. Understand how chapter files (`ch??LyX.lyx`) work.
 1. Understand how input `*.tex` files work.
 1. All files have to be UTF8 encoded. If it is LyX file, this has to be done from Settings > Language > Encoding.
 
 ## Suggested Software to Install (for Windows)
 
-* MikTeX: a LaTeX system for Windows. Other OSs are also supported.
-* LyX: A visual tool for LaTeX files
-* JabRef: BibTeX and BibLaTeX bibliography editor
-* TeXMaker: A LaTeX editor
-* Notepad++: Extended editor for programming
-* ImageMagick: Image processing libraries, need to install convert tool
-* PDF XChange Pro: Licensed PDF tool for editing PDFs
-* Sumatra PDF: PDF viewer suitable for LaTeX documents
+* [MikTeX](http://miktex.org/): a LaTeX system for Windows. Other OSs are also supported.
+* [LyX](http://lyx.org/): A visual tool for LaTeX files
+* [JabRef](http://www.jabref.org/): BibTeX and BibLaTeX bibliography editor
+* [TeXMaker](http://www.xm1math.net/texmaker/): A LaTeX editor
+* [Notepad++](https://notepad-plus-plus.org/): Extended editor for programming
+* [ImageMagick](https://imagemagick.org): Image processing libraries, need to install convert tool
+* [PDF XChange Pro](https://www.tracker-software.com/product/pdf-xchange-pro): Licensed PDF tool for editing PDFs
+* [Sumatra PDF](https://www.sumatrapdfreader.org/): PDF viewer suitable for LaTeX documents
 * Cisco VPN: VPN to connect ITU network
 
 ## Installing `itutezLyX.cls` and `itutezLyX.bst` files
@@ -85,6 +91,14 @@ It is recommended that only PDF files are used for plots. Default LyX will show 
 * Click "Save" button.
 * Select "Reconfigure" under "Tools" menu.
 * Restart LyX.
+
+## Setup Hunspell Turkish Dictionary Files for Spellcheck
+
+* The Hunspell Turkish Dictionary files that comes with the LyX installation may be corrupted; [see this LyX Bug Ticket](https://www.lyx.org/trac/ticket/11452). Corrected files should be downloaded from [LyX SVN Repository](https://www.lyx.org/trac/browser/lyxsvn/dictionaries/trunk/dicts); however, download cannot be done with right click and save as method. The files have to be clicked and downloaded from the new web page using the directions given therein.
+* Turkish dictionary file are `tr_TR.aff` and `tr_TR.dic`. Correct files should be saved to `\LyX-Main-Folder\Resources\dicts` folder under the LyX installation folder.
+* LyX dictionary file locations should be specified at "Tools" menu, "Preferences" and "Paths."
+* If thesis will be written in English, language should be set to English for all LyX files if spellcheck is to performed.
+* For Turkish thesis, the English summary file, `summary.lyx` should be set to English.
 
 ## Verification
 
