@@ -93,14 +93,13 @@ EK A.1: Haritalar
 placement h!
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../test/fig/haritalar.png
+	filename fig/haritalar.png
 	width 430pt
-	keepAspectRatio
 
 \end_inset
 
@@ -362,14 +361,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 placement h!
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../test/fig/haritalar.png
+	filename fig/haritalar.png
 	width 430pt
-	keepAspectRatio
 
 \end_inset
 
@@ -632,14 +630,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 placement h!
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../test/fig/haritalar.png
+	filename fig/haritalar.png
 	width 430pt
-	keepAspectRatio
 
 \end_inset
 
