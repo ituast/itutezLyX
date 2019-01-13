@@ -52,6 +52,12 @@ There are several things that need to be done before starting to use the templat
 * [Sumatra PDF](https://www.sumatrapdfreader.org/): PDF viewer suitable for LaTeX documents
 * Cisco VPN: VPN to connect ITU network
 
+For members of ITUAST, theses will be developed over GitHub, therefore the following should be installed/performed as well:
+* Git
+* SourceTree
+* Setup and account on GitHub
+* Setup and account on BitBucket
+
 ## Installing `itutezLyX.cls` and `itutezLyX.bst` files
 
 We will assume, you are using MikTeX on Windows
