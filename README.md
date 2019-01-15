@@ -42,6 +42,7 @@ There are several things that need to be done before starting to use the templat
 
 ## Suggested Software to Install (for Windows)
 
+* Windows 10, 64 bit, English.
 * [MikTeX](http://miktex.org/): a LaTeX system for Windows. Other OSs are also supported.
 * [LyX](http://lyx.org/): A visual tool for LaTeX files
 * [JabRef](http://www.jabref.org/): BibTeX and BibLaTeX bibliography editor
@@ -51,6 +52,27 @@ There are several things that need to be done before starting to use the templat
 * [PDF XChange Pro](https://www.tracker-software.com/product/pdf-xchange-pro): Licensed PDF tool for editing PDFs
 * [Sumatra PDF](https://www.sumatrapdfreader.org/): PDF viewer suitable for LaTeX documents
 * Cisco VPN: VPN to connect ITU network
+
+For members of ITUAST, theses will be developed over GitHub, therefore the following should be installed/performed as well:
+* [Git](https://git-scm.com/)
+* [Mercurial](https://www.mercurial-scm.org/)
+* [Git Credential Manager for Windows (GCMW) v1.17.2](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases)
+* Setup an account on [GitHub](https://github.com/)
+* Setup an account on [BitBucket](https://bitbucket.org)
+* [SourceTree](https://www.sourcetreeapp.com/)
+* [Google Drive Personal](https://www.google.com/drive/download/)
+* [Slack](https://slack.com/downloads/)
+* [Java SE Runtime Enviroment](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+
+## Notes on the Programs
+
+* User names on Windows are suggested to have no Turkish characters and no spaces.
+* It is recommended that MikTeX is setup as single user mode with all packages installed. This requires about 6 GB of space.
+* Before installing JabRef, a Java Runtime Enviroment should be installed.
+* During installation of Git, do not select to install Git Credential Manager for Windows. Instead, install GCMW v1.17.2 aftewards. Git come with GCMW v1.18 which has compatibility issues with SourceTree; see this [issue](https://community.atlassian.com/t5/Sourcetree-questions/Sourcetree-2-6-10-ArgumentException-encountered-An-item-with-the/qaq-p/909718?utm_source=atlcomm&utm_medium=email&utm_campaign=immediate_general_answer&utm_content=topic%5D#U981817) and this [issue](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/issues/802).
+* Setup an account on BitBucket before installing Sourcetree as is requires to have a bitbucket account.
+* Install Git and Mercurial before installing Sourcetree.
+* Setup an account with GitHub and clone this repository using Sourcetree. Sourcetree will start GCMW and where you will enter credentials for your Git account.
 
 ## Installing `itutezLyX.cls` and `itutezLyX.bst` files
 
@@ -69,7 +91,7 @@ We will assume, you are using MikTeX on Windows
 
 ## Installing `itutezLyX.layout` file
 
-We will assume you are running LyX version 2.3.1-1
+We will assume you are running LyX version 2.3.2 and later
 
 * Copy `itutezLyX.layout` file to `\LyX-Main-Folder\Resources\layouts` folder
 * Start LyX and Click "Reconfigure" under the "Tools" menu.
@@ -92,10 +114,10 @@ It is recommended that only PDF files are used for plots. Default LyX will show 
 * Select "Reconfigure" under "Tools" menu.
 * Restart LyX.
 
-## Setup Hunspell Turkish Dictionary Files for Spellcheck
+## Setup Hunspell Turkish Dictionary Files in LyX for Spellcheck
 
 * The Hunspell Turkish Dictionary files that comes with the LyX installation may be corrupted; [see this LyX Bug Ticket](https://www.lyx.org/trac/ticket/11452). Corrected files should be downloaded from [LyX SVN Repository](https://www.lyx.org/trac/browser/lyxsvn/dictionaries/trunk/dicts); however, download cannot be done with right click and save as method. The files have to be clicked and downloaded from the new web page using the directions given therein.
-* Turkish dictionary file are `tr_TR.aff` and `tr_TR.dic`. Correct files should be saved to `\LyX-Main-Folder\Resources\dicts` folder under the LyX installation folder.
+* Turkish dictionary files are `tr_TR.aff` and `tr_TR.dic`. Correct files should be saved to `\LyX-Main-Folder\Resources\dicts` folder under the LyX installation folder.
 * LyX dictionary file locations should be specified at "Tools" menu, "Preferences" and "Paths."
 * If thesis will be written in English, language should be set to English for all LyX files if spellcheck is to performed.
 * For Turkish thesis, the English summary file, `summary.lyx` should be set to English.
