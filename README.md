@@ -55,6 +55,7 @@ There are several things that need to be done before starting to use the templat
 
 For members of ITUAST, theses will be developed over GitHub, therefore the following should be installed/performed as well:
 * [Git](https://git-scm.com/)
+* [Mercurial](https://www.mercurial-scm.org/)
 * [Git Credential Manager for Windows (GCMW) v1.17.2](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases)
 * Setup an account on [GitHub](https://github.com/)
 * Setup an account on [BitBucket](https://bitbucket.org)
@@ -69,6 +70,9 @@ For members of ITUAST, theses will be developed over GitHub, therefore the follo
 * It is recommended that MikTeX is setup as single user mode with all packages installed. This requires about 6 GB of space.
 * Before installing JabRef, a Java Runtime Enviroment should be installed.
 * During installation of Git, do not select to install Git Credential Manager for Windows. Instead, install GCMW v1.17.2 aftewards. Git come with GCMW v1.18 which has compatibility issues with SourceTree; see this [issue](https://community.atlassian.com/t5/Sourcetree-questions/Sourcetree-2-6-10-ArgumentException-encountered-An-item-with-the/qaq-p/909718?utm_source=atlcomm&utm_medium=email&utm_campaign=immediate_general_answer&utm_content=topic%5D#U981817) and this [issue](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/issues/802).
+* Setup an account on BitBucket before installing Sourcetree as is requires to have a bitbucket account.
+* Install Git and Mercurial before installing Sourcetree.
+* Setup an account with GitHub and clone this repository using Sourcetree. Sourcetree will start GCMW and where you will enter credentials for your Git account.
 
 ## Installing `itutezLyX.cls` and `itutezLyX.bst` files
 
