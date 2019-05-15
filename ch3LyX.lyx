@@ -107,6 +107,18 @@ Tez çalışması kapsamında sismik yalıtımlı yapıların doğrusal olmayan 
  için hazırlanan örnek sistemler incelenecektir.
 \end_layout
 
+\begin_layout Standard
+Numarasız denkleme örnek:
+\begin_inset Formula 
+\[
+\Delta=5x
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 İncelenen Yapıların Özellikleri
 \end_layout
