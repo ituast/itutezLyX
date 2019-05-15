@@ -6,6 +6,10 @@ This is a LyX template/structure for Istanbul Technical University, Faculty of E
 
 ## What's New
 
+15 May 2019
+
+* Removed all redefinitions of symbols in `def.tex` file. The redefinition of `"\[ ... \]"` causes error with Greek symbols.
+
 8 January 2018
 
 * Set all language to Turkish.
